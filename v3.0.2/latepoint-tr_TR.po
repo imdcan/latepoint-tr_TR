@@ -1,0 +1,3604 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: LatePoint\n"
+"POT-Creation-Date: 2019-11-19 18:45-0800\n"
+"PO-Revision-Date: 2019-11-21 22:03+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: latepoint.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: tr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: latepoint.php:437
+msgid "LatePoint Agent"
+msgstr "Diyetisyen"
+
+#: latepoint.php:454
+msgid "LatePoint Customer"
+msgstr "Danışan"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: latepoint.php:558 latepoint.php:559 latepoint.php:578
+msgid "LatePoint"
+msgstr "Randevu Sistemi"
+
+#: latepoint.php:669 latepoint.php:790 lib/helpers/booking_helper.php:638 lib/helpers/time_helper.php:53 lib/models/booking_model.php:391 lib/models/booking_model.php:400 lib/views/calendars/weekly_agent.php:15
+msgid "Today"
+msgstr "Bugün"
+
+#: latepoint.php:671 latepoint.php:796 lib/helpers/agent_helper.php:130 lib/helpers/agent_helper.php:154 lib/helpers/booking_helper.php:142
+msgid "Not Available"
+msgstr "Müsait değil"
+
+#: latepoint.php:686
+msgid "Are you sure you want to cancel this appointment?"
+msgstr "Bu randevuyu iptal etmek istediğinize emin misiniz?"
+
+#: latepoint.php:791
+msgid "Copied"
+msgstr "Kopyalandı"
+
+#: latepoint.php:792
+msgid "Click to copy"
+msgstr "Kopyalamak için tıklayın"
+
+#: latepoint.php:793
+msgid "Are you sure you want to approve this booking?"
+msgstr "Bu randevuyu onaylamak istediğinizden emin misiniz?"
+
+#: latepoint.php:794
+msgid "Are you sure you want to reject this booking?"
+msgstr "Bu randevuu reddetmek istediğinizden emin misiniz?"
+
+#: latepoint.php:797 lib/views/addons/load_addons_list.php:43
+msgid "Installed"
+msgstr "Yüklü"
+
+#: latepoint.php:798 lib/helpers/replacer_helper.php:62 lib/views/bookings/_quick_form.php:79
+msgid "minutes"
+msgstr "dakika"
+
+#: lib/controllers/activities_controller.php:18 lib/controllers/activities_controller.php:19
+msgid "Activities"
+msgstr "Aktiviteler"
+
+#: lib/controllers/activities_controller.php:31 lib/controllers/agents_controller.php:32 lib/controllers/reminders_controller.php:26
+msgid "Index"
+msgstr "Dizin"
+
+#: lib/controllers/addons_controller.php:38
+msgid "Addon installed successfully."
+msgstr "Addon başarıyla yüklendi."
+
+#: lib/controllers/agents_controller.php:18 lib/controllers/agents_controller.php:19 lib/helpers/menu_helper.php:68 lib/views/search/query_results.php:18 lib/views/services/_form.php:103
+msgid "Agents"
+msgstr "Danışmanlar"
+
+#: lib/controllers/agents_controller.php:53 lib/controllers/agents_controller.php:54
+msgid "Create New Agent"
+msgstr "Yeni Diyetisyen oluştur"
+
+#: lib/controllers/agents_controller.php:78 lib/controllers/agents_controller.php:79
+msgid "Edit Agent"
+msgstr "Diyetisyen Düzenle"
+
+#: lib/controllers/agents_controller.php:133 lib/controllers/settings_controller.php:323
+msgid "Agent Created. ID:"
+msgstr "Diyetisyen Oluşturuldu. Kimliği:"
+
+#: lib/controllers/agents_controller.php:136
+msgid "Agent Updated. ID:"
+msgstr "Diyetisyen Güncellendi. Kimliği:"
+
+#: lib/controllers/agents_controller.php:162
+msgid "Agent Removed"
+msgstr "Diyetisyen kaldırıldı"
+
+#: lib/controllers/agents_controller.php:165 lib/controllers/agents_controller.php:169
+msgid "Error Removing Agent"
+msgstr "Hata Kaldırma Diyetisyensı"
+
+#: lib/controllers/auth_controller.php:23
+msgid "You have been logged out of your account."
+msgstr "Hesabınızdan çıkış yaptınız."
+
+#: lib/controllers/auth_controller.php:33 lib/controllers/auth_controller.php:74
+msgid "Welcome back"
+msgstr "Tekrar hoş geldiniz"
+
+#: lib/controllers/auth_controller.php:36
+msgid "Sorry, that email or password didn't work."
+msgstr "Üzgünüz, bu e-posta veya şifre işe yaramadı."
+
+#: lib/controllers/bookings_controller.php:19 lib/controllers/calendars_controller.php:22 lib/controllers/steps_controller.php:18 lib/controllers/steps_controller.php:19 lib/helpers/booking_helper.php:63 lib/helpers/menu_helper.php:27 lib/helpers/menu_helper.php:54
+#: lib/views/calendars/daily_agent.php:98 lib/views/customers/_form.php:101 lib/views/dashboard/widget_daily_bookings_chart.php:43
+msgid "Appointments"
+msgstr "Randevular"
+
+#: lib/controllers/bookings_controller.php:49
+msgid "Pending Appointments"
+msgstr "Bekleyen Randevular"
+
+#: lib/controllers/bookings_controller.php:79 lib/views/agents/_form.php:103 lib/views/agents/_form.php:105 lib/views/agents/_form.php:112 lib/views/locations/_form.php:49 lib/views/locations/_form.php:51 lib/views/locations/_form.php:59 lib/views/services/_form.php:119
+#: lib/views/services/_form.php:121 lib/views/services/_form.php:129
+msgid "All"
+msgstr "Tümü"
+
+#: lib/controllers/bookings_controller.php:128 lib/controllers/customers_controller.php:298 lib/views/bookings/index.php:8 lib/views/bookings/index.php:19 lib/views/bookings/index.php:54 lib/views/customers/index.php:8 lib/views/customers/index.php:19 lib/views/customers/index.php:44
+#: lib/views/transactions/index.php:7 lib/views/transactions/index.php:45
+msgid "ID"
+msgstr "ID"
+
+#: lib/controllers/bookings_controller.php:129 lib/models/booking_model.php:32 lib/views/bookings/_form.php:12 lib/views/bookings/index.php:9 lib/views/bookings/index.php:55 lib/views/steps/start.php:52
+msgid "Service"
+msgstr "Hizmet"
+
+#: lib/controllers/bookings_controller.php:130
+msgid "Start Date & Time"
+msgstr "Başlangıç Tarihi ve Saati"
+
+#: lib/controllers/bookings_controller.php:131 lib/views/bookings/_quick_form.php:74 lib/views/steps/start.php:53
+msgid "Duration"
+msgstr "Süre"
+
+#: lib/controllers/bookings_controller.php:132 lib/views/bookings/_form.php:109 lib/views/bookings/_quick_form.php:153 lib/views/bookings/index.php:13 lib/views/bookings/index.php:59 lib/views/bookings/pending_approval.php:40 lib/views/dashboard/widget_upcoming_appointments.php:69
+#: lib/views/notifications/_available_vars.php:30 lib/views/steps/start.php:58 lib/views/transactions/index.php:10 lib/views/transactions/index.php:48
+msgid "Customer"
+msgstr "Danışan"
+
+#: lib/controllers/bookings_controller.php:133
+msgid "Customer Phone"
+msgstr "Danışan Telefonu"
+
+#: lib/controllers/bookings_controller.php:134
+msgid "Customer Email"
+msgstr "Danışan E-postası"
+
+#: lib/controllers/bookings_controller.php:135 lib/models/booking_model.php:33 lib/views/bookings/_quick_form.php:101 lib/views/bookings/index.php:12 lib/views/bookings/index.php:58 lib/views/bookings/pending_approval.php:21 lib/views/calendars/monthly_agents.php:22
+#: lib/views/customers/_booking_tile.php:16 lib/views/layouts/admin.php:11 lib/views/notifications/_available_vars.php:42 lib/views/steps/start.php:55
+msgid "Agent"
+msgstr "Danışman"
+
+#: lib/controllers/bookings_controller.php:136
+msgid "Agent Phone"
+msgstr "Diyetisyen Telefonu"
+
+#: lib/controllers/bookings_controller.php:137
+msgid "Agent Email"
+msgstr "Diyetisyen E-Posta"
+
+#: lib/controllers/bookings_controller.php:138 lib/views/agents/_form.php:36 lib/views/bookings/_form.php:81 lib/views/bookings/_quick_form.php:112 lib/views/bookings/index.php:14 lib/views/bookings/index.php:60 lib/views/customers/_booking_tile.php:19 lib/views/locations/_form.php:17
+#: lib/views/services/_form.php:22 lib/views/transactions/index.php:14 lib/views/transactions/index.php:52
+msgid "Status"
+msgstr "Durum"
+
+#: lib/controllers/bookings_controller.php:139
+msgid "Booked On"
+msgstr "Randevu Üzerine"
+
+#: lib/controllers/bookings_controller.php:245
+msgid "Error! JSf29834"
+msgstr "Hata! JSf29834"
+
+#: lib/controllers/bookings_controller.php:260 lib/controllers/bookings_controller.php:264
+msgid "Appointment Status Updated"
+msgstr "Randevu Durumu Güncellendi"
+
+#: lib/controllers/bookings_controller.php:302 lib/views/steps/_confirmation.php:5
+msgid "Confirmation #"
+msgstr "Onay #"
+
+#: lib/controllers/bookings_controller.php:307 lib/views/steps/_confirmation.php:12 lib/views/steps/_verify.php:7
+msgid "Appointment Info"
+msgstr "Randevu Bilgisi"
+
+#: lib/controllers/bookings_controller.php:309 lib/views/steps/_confirmation.php:14 lib/views/steps/_verify.php:9
+msgid "Date:"
+msgstr "Tarih:"
+
+#: lib/controllers/bookings_controller.php:311 lib/views/steps/_confirmation.php:16 lib/views/steps/_verify.php:11
+msgid "Time:"
+msgstr "Saat:"
+
+#: lib/controllers/bookings_controller.php:318 lib/views/steps/_confirmation.php:23 lib/views/steps/_verify.php:18
+msgid "Location:"
+msgstr "Konum:"
+
+#: lib/controllers/bookings_controller.php:321 lib/views/steps/_confirmation.php:26 lib/views/steps/_verify.php:21
+msgid "Agent:"
+msgstr "Diyetisyen: "
+
+#: lib/controllers/bookings_controller.php:323 lib/views/steps/_confirmation.php:28 lib/views/steps/_verify.php:23
+msgid "Service:"
+msgstr "Hizmet:"
+
+#: lib/controllers/bookings_controller.php:328 lib/views/steps/_confirmation.php:33 lib/views/steps/_verify.php:28
+msgid "Customer Info"
+msgstr "Danışan Bilgileri"
+
+#: lib/controllers/bookings_controller.php:330 lib/views/notifications/_available_vars.php:52 lib/views/steps/_confirmation.php:35 lib/views/steps/_verify.php:30
+msgid "Name:"
+msgstr "İsim:"
+
+#: lib/controllers/bookings_controller.php:331 lib/views/notifications/_available_vars.php:36 lib/views/notifications/_available_vars.php:46 lib/views/steps/_confirmation.php:36 lib/views/steps/_verify.php:31
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: lib/controllers/bookings_controller.php:332 lib/views/notifications/_available_vars.php:45 lib/views/steps/_confirmation.php:37 lib/views/steps/_verify.php:32
+msgid "Email:"
+msgstr "E-Posta:"
+
+#: lib/controllers/bookings_controller.php:335 lib/helpers/replacer_helper.php:62 lib/models/booking_model.php:67 lib/models/booking_model.php:73 lib/views/customers/_table_body.php:15 lib/views/steps/_confirmation.php:40 lib/views/steps/_verify.php:35
+msgid "n/a"
+msgstr "n/a"
+
+#: lib/controllers/bookings_controller.php:344 lib/views/steps/_confirmation.php:49 lib/views/steps/_verify.php:42
+msgid "Payment Info"
+msgstr "Ödeme bilgisi"
+
+#: lib/controllers/bookings_controller.php:348 lib/views/notifications/_available_vars.php:24 lib/views/steps/_confirmation.php:53 lib/views/steps/_verify.php:46
+msgid "Payment Method:"
+msgstr "Ödeme Yöntemi:"
+
+#: lib/controllers/bookings_controller.php:350 lib/views/steps/_confirmation.php:55
+msgid "Total Amount Due:"
+msgstr "Ödenecek Toplam Tutar:"
+
+#: lib/controllers/bookings_controller.php:353 lib/views/steps/_confirmation.php:58
+msgid "Amount Paid Now:"
+msgstr "Şimdi Ödenen Tutar:"
+
+#: lib/controllers/bookings_controller.php:395
+msgid "Timezone Updated"
+msgstr "Saat dilimi Güncellendi"
+
+#: lib/controllers/bookings_controller.php:448
+msgid "Appointment Added: ID#"
+msgstr "Randevu Eklendi: Kimlik #"
+
+#: lib/controllers/bookings_controller.php:512
+msgid "Appointment Updated: ID#"
+msgstr "Randevu Güncellendi: Kimlik #"
+
+#: lib/controllers/calendars_controller.php:18 lib/controllers/calendars_controller.php:56 lib/controllers/calendars_controller.php:126 lib/helpers/menu_helper.php:22 lib/helpers/menu_helper.php:49
+msgid "Daily View"
+msgstr "Günlük Takvim"
+
+#: lib/controllers/calendars_controller.php:19 lib/helpers/menu_helper.php:23
+msgid "Weekly View"
+msgstr "Haftalık Görünüm"
+
+#: lib/controllers/calendars_controller.php:20 lib/helpers/menu_helper.php:24 lib/helpers/menu_helper.php:51
+msgid "Monthly View"
+msgstr "Aylık görünüm"
+
+#: lib/controllers/calendars_controller.php:261 lib/helpers/menu_helper.php:50
+msgid "Weekly Calendar"
+msgstr "Haftalık Takvim"
+
+#: lib/controllers/controller.php:22 lib/helpers/booking_helper.php:72 lib/views/bookings/grouped_bookings_quick_view.php:16 lib/views/dashboard/widget_top_agents.php:29 lib/views/dashboard/widget_top_agents.php:45
+msgid "Bookings"
+msgstr "Randevular"
+
+#: lib/controllers/controller.php:23 lib/controllers/dashboard_controller.php:18 lib/helpers/menu_helper.php:46
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: lib/controllers/custom_fields_controller.php:18 lib/controllers/custom_fields_controller.php:103 lib/helpers/menu_helper.php:73 lib/views/bookings/customer_quick_edit_form.php:32 lib/views/customers/_form.php:55 lib/views/notifications/_available_vars.php:58
+msgid "Custom Fields"
+msgstr "Özel Alanlar"
+
+#: lib/controllers/custom_fields_controller.php:25 lib/controllers/reminders_controller.php:42
+msgid "Custom Field Removed"
+msgstr "Özel Alan Kaldırıldı"
+
+#: lib/controllers/custom_fields_controller.php:28 lib/controllers/reminders_controller.php:45
+msgid "Error Removing Custom Field"
+msgstr "Hata Kaldırma Özel Alan"
+
+#: lib/controllers/custom_fields_controller.php:32 lib/controllers/reminders_controller.php:49
+msgid "Invalid Field ID"
+msgstr "Geçersiz Alan Kimliği"
+
+#: lib/controllers/custom_fields_controller.php:61 lib/controllers/reminders_controller.php:81
+msgid "Custom Field Saved"
+msgstr "Özel Alan Kaydedildi"
+
+#: lib/controllers/custom_fields_controller.php:64 lib/controllers/reminders_controller.php:84
+msgid "Error Saving Custom Field"
+msgstr "Özel Alan Tasarrufu Hatası"
+
+#: lib/controllers/custom_fields_controller.php:70 lib/controllers/reminders_controller.php:90
+msgid "Invalid params"
+msgstr "Geçersiz paramlar"
+
+#: lib/controllers/custom_fields_controller.php:89
+msgid "Order Updated"
+msgstr "Randevu Güncelleme"
+
+#: lib/controllers/custom_fields_controller.php:92
+msgid "Error Updating Order of Custom Fields"
+msgstr "Özel Alanların Sırasını Güncelleme Hatası"
+
+#: lib/controllers/customers_controller.php:17 lib/helpers/menu_helper.php:69 lib/views/calendars/daily_agent.php:112 lib/views/dashboard/widget_upcoming_appointments.php:64 lib/views/search/query_results.php:2
+msgid "Customers"
+msgstr "Danışanler"
+
+#: lib/controllers/customers_controller.php:25
+msgid "Customer Removed"
+msgstr "Danışan kaldırıldı"
+
+#: lib/controllers/customers_controller.php:28 lib/controllers/customers_controller.php:32
+msgid "Error Removing Customer"
+msgstr "Danışanyi Kaldırma Hatası"
+
+#: lib/controllers/customers_controller.php:45
+msgid "Create New Customer"
+msgstr "Yeni Danışan Yarat"
+
+#: lib/controllers/customers_controller.php:62 lib/controllers/customers_controller.php:63
+msgid "Edit Customer"
+msgstr "Danışanyi Düzenle"
+
+#: lib/controllers/customers_controller.php:85 lib/controllers/settings_controller.php:307
+msgid "Customer Created. ID:"
+msgstr "Danışan oluşturuldu. İD:"
+
+#: lib/controllers/customers_controller.php:112
+msgid "Information Saved"
+msgstr "Bilgi kaydedildi"
+
+#: lib/controllers/customers_controller.php:141
+msgid "Invalid password or email"
+msgstr "Geçersiz şifre veya e-posta"
+
+#: lib/controllers/customers_controller.php:166
+msgid "Error! Email was not sent."
+msgstr "Hata! E-posta gönderilmedi."
+
+#: lib/controllers/customers_controller.php:166
+msgid "Email does not match any customer"
+msgstr "E-posta hiçbir danışanyle eşleşmiyor"
+
+#: lib/controllers/customers_controller.php:195
+msgid "Invalid Secret Key"
+msgstr "Geçersiz Gizli Anahtar"
+
+#: lib/controllers/customers_controller.php:200
+msgid "Error!"
+msgstr "Hata!"
+
+#: lib/controllers/customers_controller.php:206
+msgid "Your password was successfully updated."
+msgstr "Şifreniz başarıyla güncellendi."
+
+#: lib/controllers/customers_controller.php:208 lib/controllers/customers_controller.php:234
+msgid "Error! Message Code: KS723J"
+msgstr "Hata! Mesaj Kodu: KS723J"
+
+#: lib/controllers/customers_controller.php:213
+msgid "Error! Passwords do not match."
+msgstr "Hata! Parolalar uyuşmuyor."
+
+#: lib/controllers/customers_controller.php:232
+msgid "Account Password Set"
+msgstr "Hesap Parola Seti"
+
+#: lib/controllers/customers_controller.php:239
+msgid "Error! Password is empty."
+msgstr "Hata! Şifre boş."
+
+#: lib/controllers/customers_controller.php:242
+msgid "Error! Message Code: JS76SD"
+msgstr "Hata! Mesaj Kodu: JS76SD"
+
+#: lib/controllers/customers_controller.php:299
+msgid "Name"
+msgstr "İsim"
+
+#: lib/controllers/customers_controller.php:300 lib/views/customers/index.php:10 lib/views/customers/index.php:46
+msgid "Phone"
+msgstr "Telefon"
+
+#: lib/controllers/customers_controller.php:301 lib/views/bookings/_form.php:68 lib/views/customers/index.php:11 lib/views/customers/index.php:47 lib/views/reminders/new_form.php:16
+msgid "Email"
+msgstr "E-posta"
+
+#: lib/controllers/customers_controller.php:302
+msgid "Total Appointments"
+msgstr "Toplam Randevu"
+
+#: lib/controllers/customers_controller.php:303 lib/views/customers/index.php:15 lib/views/customers/index.php:51
+msgid "Registered On"
+msgstr "Kaydedildi"
+
+#: lib/controllers/debug_controller.php:18
+msgid "LatePoint Status"
+msgstr "LatePoint Durumu"
+
+#: lib/controllers/locations_controller.php:18 lib/controllers/locations_controller.php:19 lib/helpers/menu_helper.php:76
+msgid "Locations"
+msgstr "Mekanlar"
+
+#: lib/controllers/locations_controller.php:35 lib/controllers/locations_controller.php:36
+msgid "Edit Location"
+msgstr "Konumunu düzenle"
+
+#: lib/controllers/locations_controller.php:60 lib/controllers/locations_controller.php:61
+msgid "Create New Location"
+msgstr "Yeni Konum Oluştur"
+
+#: lib/controllers/locations_controller.php:115 lib/controllers/settings_controller.php:291
+msgid "Location Created. ID:"
+msgstr "Yer Oluşturuldu. İD:"
+
+#: lib/controllers/locations_controller.php:118
+msgid "Location Updated. ID:"
+msgstr "Konum güncellendi. İD:"
+
+#: lib/controllers/locations_controller.php:149
+msgid "Location Removed"
+msgstr "Yer Kaldırıldı"
+
+#: lib/controllers/locations_controller.php:152 lib/controllers/locations_controller.php:156
+msgid "Error Removing Location"
+msgstr "Konum Kaldırma Hatası"
+
+#: lib/controllers/notifications_controller.php:17 lib/helpers/menu_helper.php:92
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: lib/controllers/notifications_controller.php:23 lib/views/notifications/settings.php:13
+msgid "SMS Settings"
+msgstr "SMS Ayarları"
+
+#: lib/controllers/notifications_controller.php:47 lib/controllers/settings_controller.php:19 lib/helpers/menu_helper.php:77 lib/helpers/menu_helper.php:78 lib/helpers/menu_helper.php:94 lib/views/partials/_top_bar.php:46
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: lib/controllers/notifications_controller.php:55 lib/helpers/menu_helper.php:96
+msgid "SMS Templates"
+msgstr "SMS Şablonları"
+
+#: lib/controllers/notifications_controller.php:63 lib/helpers/menu_helper.php:97
+msgid "Email Templates"
+msgstr "E-posta Şablonları"
+
+#: lib/controllers/notifications_controller.php:73
+msgid "Appointment Confirmation Sent"
+msgstr "Randevu Onayı Gönderildi"
+
+#: lib/controllers/reminders_controller.php:16 lib/controllers/reminders_controller.php:17 lib/helpers/menu_helper.php:95
+msgid "Reminders"
+msgstr "Hatırlatmalar"
+
+#: lib/controllers/service_categories_controller.php:18 lib/controllers/service_categories_controller.php:19 lib/helpers/menu_helper.php:65
+msgid "Service Categories"
+msgstr "Hizmet Kategorileri"
+
+#: lib/controllers/service_categories_controller.php:38 lib/controllers/service_categories_controller.php:39 lib/controllers/services_controller.php:55 lib/controllers/services_controller.php:56
+msgid "Create New Service"
+msgstr "Yeni Hizmet Yarat"
+
+#: lib/controllers/service_categories_controller.php:63 lib/models/service_category_model.php:66 lib/views/bookings/_quick_form.php:35 lib/views/services/index.php:3
+msgid "Uncategorized"
+msgstr "Kategorize"
+
+#: lib/controllers/service_categories_controller.php:95
+msgid "Service Category Removed"
+msgstr "Hizmet Kategorisi Kaldırıldı"
+
+#: lib/controllers/service_categories_controller.php:98
+msgid "Error Removing Service Category. Error: FJI8321"
+msgstr "Hizmet Kategorisini Kaldırma Hatası. Hata: FJI8321"
+
+#: lib/controllers/service_categories_controller.php:102
+msgid "Error Removing Service Category. Error: SIF2348"
+msgstr "Hizmet Kategorisini Kaldırma Hatası. Hata: SIF2348"
+
+#: lib/controllers/service_categories_controller.php:118
+msgid "Service Order Updated"
+msgstr "Hizmet Randevui Güncellendi"
+
+#: lib/controllers/service_categories_controller.php:132
+msgid "Service Categories Order Updated"
+msgstr "Hizmet Kategorileri Randevu Güncelleme"
+
+#: lib/controllers/service_categories_controller.php:155
+msgid "Service Category Created. ID: "
+msgstr "Hizmet Kategorisi Oluşturuldu. İD: "
+
+#: lib/controllers/service_categories_controller.php:175
+msgid "Service Category Updated. ID: "
+msgstr "Hizmet Kategorisi Güncellenmiştir. İD: "
+
+#: lib/controllers/services_controller.php:19 lib/helpers/booking_helper.php:304 lib/helpers/menu_helper.php:62 lib/views/search/query_results.php:31
+msgid "Services"
+msgstr "Hizmet"
+
+#: lib/controllers/services_controller.php:29 lib/controllers/services_controller.php:30 lib/views/services/_service_index_item.php:35
+msgid "Edit Service"
+msgstr "Hizmeti Düzenle"
+
+#: lib/controllers/services_controller.php:127 lib/controllers/settings_controller.php:358
+msgid "Service Created. ID:"
+msgstr "Hizmet yaratıldı. İD:"
+
+#: lib/controllers/services_controller.php:130
+msgid "Service Updated. ID:"
+msgstr "Hizmet Güncellenmiştir. İD:"
+
+#: lib/controllers/services_controller.php:161
+msgid "Service Removed"
+msgstr "Hizmet kaldırıldı"
+
+#: lib/controllers/services_controller.php:164 lib/controllers/services_controller.php:168
+msgid "Error Removing Service"
+msgstr "Hizmet Kaldırma Hatası"
+
+#: lib/controllers/settings_controller.php:33
+msgid "Calendar Integration"
+msgstr "Takvim Entegrasyonu"
+
+#: lib/controllers/settings_controller.php:44
+msgid "Pages Setup"
+msgstr "Sayfa Kurulumu"
+
+#: lib/controllers/settings_controller.php:54
+msgid "Payment Processing"
+msgstr "Odeme yapiliyor"
+
+#: lib/controllers/settings_controller.php:66
+msgid "Work Schedule Settings"
+msgstr "Çalışma Takvimi Ayarları"
+
+#: lib/controllers/settings_controller.php:74
+msgid "General"
+msgstr "Genel"
+
+#: lib/controllers/settings_controller.php:87
+msgid "Custom Day Schedule Removed"
+msgstr "Özel Gün Takvimi Kaldırıldı"
+
+#: lib/controllers/settings_controller.php:90
+msgid "Invalid Date"
+msgstr "Geçersiz tarih"
+
+#: lib/controllers/settings_controller.php:101
+msgid "Step Settings"
+msgstr "Adım ayarları"
+
+#: lib/controllers/settings_controller.php:117
+msgid "Step Updated: "
+msgstr "Güncelleme Adımı: "
+
+#: lib/controllers/settings_controller.php:140
+msgid "Step Ordering Updated "
+msgstr "Adım Randevu Güncelleme "
+
+#: lib/controllers/settings_controller.php:148 lib/controllers/settings_controller.php:184
+msgid "Work Schedule Updated"
+msgstr "Çalışma Takvimi Güncellendi"
+
+#: lib/controllers/settings_controller.php:212
+msgid "Settings Updated"
+msgstr "Ayarlar güncellendi"
+
+#: lib/controllers/settings_controller.php:340
+msgid "Service Category Created. ID:"
+msgstr "Hizmet Kategorisi Oluşturuldu. İD:"
+
+#: lib/controllers/transactions_controller.php:17 lib/helpers/menu_helper.php:58 lib/views/bookings/_quick_form.php:235
+msgid "Transactions"
+msgstr "İşlemler"
+
+#: lib/controllers/transactions_controller.php:45
+msgid "Invalid ID"
+msgstr "Geçersiz ID"
+
+#: lib/controllers/wizard_controller.php:20
+msgid "Wizard"
+msgstr "Sihirbaz"
+
+#: lib/controllers/wizard_controller.php:24
+msgid "Create Agents"
+msgstr "Acenteleri Oluştur"
+
+#: lib/controllers/wizard_controller.php:25
+msgid "Intro"
+msgstr "Intro"
+
+#: lib/controllers/wizard_controller.php:26
+msgid "Add Services"
+msgstr "Hizmet Ekleme"
+
+#: lib/controllers/wizard_controller.php:27 lib/views/calendars/weekly_agent.php:109
+msgid "Set Working Hours"
+msgstr "Çalışma Saatlerini Ayarla"
+
+#: lib/controllers/wizard_controller.php:28
+msgid "Fill Business Info"
+msgstr "İşletme Bilgilerini Doldur"
+
+#: lib/controllers/wizard_controller.php:29 lib/views/wizard/steps/_complete.php:1
+msgid "Setup Complete"
+msgstr "Kurulum tamamlandı"
+
+#: lib/helpers/activities_helper.php:16
+#, php-format
+msgid "Appointment status changed from %s to %s"
+msgstr "Randevu durumu %s %s"
+
+#: lib/helpers/addons_helper.php:28
+msgid "Connection Error. Please try again in a few minutes or contact us via email addons@latepoint.com. KLJSD734"
+msgstr "Bağlantı hatası. Lütfen birkaç dakika sonra tekrar deneyin veya addons@latepoint.com adresine e-posta gönderin. KLJSD734"
+
+#: lib/helpers/addons_helper.php:68
+msgid "Error installing addon! Invalid info KFE73463"
+msgstr "Addon yüklenirken hata oluştu! Geçersiz bilgi KFE73463"
+
+#: lib/helpers/agent_helper.php:182 lib/helpers/booking_helper.php:85 lib/views/calendars/monthly_agents.php:92
+msgid "Day Off"
+msgstr "İzin günü"
+
+#: lib/helpers/agent_helper.php:222 lib/views/agents/index.php:27 lib/views/calendars/weekly_agent.php:118
+msgid "No Existing Agents Found"
+msgstr "Mevcut Diyetisyen Bulunamadı"
+
+#: lib/helpers/agent_helper.php:223 lib/views/agents/index.php:28 lib/views/calendars/weekly_agent.php:119
+msgid "Add First Agent"
+msgstr "İlk Diyetisyen Ekle"
+
+#: lib/helpers/agent_helper.php:227 lib/views/services/index.php:47
+msgid "No Services Found"
+msgstr "Hizmet Bulunamadı"
+
+#: lib/helpers/agent_helper.php:230 lib/views/search/query_results.php:42 lib/views/services/_form.php:205 lib/views/services/index.php:13 lib/views/services/index.php:36 lib/views/services/index.php:50 lib/views/wizard/steps/_list_services.php:36
+msgid "Add Service"
+msgstr "Hizmet ekle"
+
+#: lib/helpers/booking_helper.php:6
+#, php-format
+msgid "Appointment with %s for %s"
+msgstr "%s için %s ile randevu"
+
+#: lib/helpers/booking_helper.php:81
+msgid "Work Hours"
+msgstr "Çalışma saatleri"
+
+#: lib/helpers/booking_helper.php:93
+msgid "On Duty"
+msgstr "Görevde"
+
+#: lib/helpers/booking_helper.php:94
+#, php-format
+msgid "%d Agents"
+msgstr "%d Danışman"
+
+#: lib/helpers/booking_helper.php:112
+msgid "Total booking price: "
+msgstr "Toplam randevu fiyatı: "
+
+#: lib/helpers/booking_helper.php:113
+msgid "Deposit Amount: "
+msgstr "Depozito Tutarı: "
+
+#: lib/helpers/booking_helper.php:199
+msgid "Starts From"
+msgstr "Dan başlar"
+
+#: lib/helpers/booking_helper.php:216 lib/helpers/booking_helper.php:221
+msgid "Minutes"
+msgstr "Dakika"
+
+#: lib/helpers/booking_helper.php:628
+msgid "Availability For:"
+msgstr "Uygunluk Durumu:"
+
+#: lib/helpers/booking_helper.php:968
+msgid "Undefined Status"
+msgstr "Tanımsız Durum"
+
+#: lib/helpers/booking_helper.php:973
+msgid "Approved"
+msgstr "Onaylandı"
+
+#: lib/helpers/booking_helper.php:974 lib/helpers/menu_helper.php:30 lib/helpers/menu_helper.php:57
+msgid "Pending Approval"
+msgstr "Onay bekleyen"
+
+#: lib/helpers/booking_helper.php:975
+msgid "Payment Pending"
+msgstr "Ödeme bekleniyor"
+
+#: lib/helpers/booking_helper.php:976
+msgid "Cancelled"
+msgstr "İptal edildi"
+
+#: lib/helpers/booking_helper.php:981
+msgid "Local Payment"
+msgstr "Yerel Ödeme"
+
+#: lib/helpers/booking_helper.php:982 lib/helpers/steps_helper.php:535
+msgid "PayPal"
+msgstr "PayPal"
+
+#: lib/helpers/booking_helper.php:983
+msgid "Credit/Debit Card"
+msgstr "Kredi / Banka Kartı"
+
+#: lib/helpers/booking_helper.php:989 lib/views/steps/_payment.php:115
+msgid "Full Amount"
+msgstr "Tam miktar"
+
+#: lib/helpers/booking_helper.php:989
+msgid "Deposit"
+msgstr "Depozito"
+
+#: lib/helpers/booking_helper.php:997 lib/helpers/util_helper.php:182
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: lib/helpers/booking_helper.php:998 lib/helpers/util_helper.php:183
+msgid "Tuesday"
+msgstr "Salı"
+
+#: lib/helpers/booking_helper.php:999 lib/helpers/util_helper.php:184
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: lib/helpers/booking_helper.php:1000 lib/helpers/util_helper.php:185
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: lib/helpers/booking_helper.php:1001 lib/helpers/util_helper.php:186
+msgid "Friday"
+msgstr "Cuma"
+
+#: lib/helpers/booking_helper.php:1002 lib/helpers/util_helper.php:187
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: lib/helpers/booking_helper.php:1003 lib/helpers/util_helper.php:188
+msgid "Sunday"
+msgstr "Pazar"
+
+#: lib/helpers/booking_helper.php:1005
+msgid "Mon"
+msgstr "Pzt"
+
+#: lib/helpers/booking_helper.php:1006
+msgid "Tue"
+msgstr "Sal"
+
+#: lib/helpers/booking_helper.php:1007
+msgid "Wed"
+msgstr "Çar"
+
+#: lib/helpers/booking_helper.php:1008
+msgid "Thu"
+msgstr "Per"
+
+#: lib/helpers/booking_helper.php:1009
+msgid "Fri"
+msgstr "Cuma"
+
+#: lib/helpers/booking_helper.php:1010
+msgid "Sat"
+msgstr "Cmt"
+
+#: lib/helpers/booking_helper.php:1011
+msgid "Sun"
+msgstr "Paz"
+
+#: lib/helpers/custom_fields_helper.php:26
+msgid "Field Label can not be empty"
+msgstr "Alan Etiketi boş olamaz"
+
+#: lib/helpers/custom_fields_helper.php:28
+msgid "Type can not be empty"
+msgstr "Türü boş olamaz"
+
+#: lib/helpers/custom_fields_helper.php:31
+msgid "Options for select box can not be blank"
+msgstr "Seçim kutusu seçenekleri boş bırakılamaz"
+
+#: lib/helpers/form_helper.php:160
+msgid "am"
+msgstr "sabah"
+
+#: lib/helpers/form_helper.php:160
+msgid "pm"
+msgstr "pm"
+
+#: lib/helpers/form_helper.php:178
+msgid "Pick a color"
+msgstr "Bir renk seç"
+
+#: lib/helpers/license_helper.php:37
+msgid "Please enter your license key"
+msgstr "Lütfen lisans anahtarınızı girin"
+
+#: lib/helpers/license_helper.php:61
+msgid "Connection Error. Please try again in a few minutes or contact us via email license@latepoint.com. UDF732S83"
+msgstr "Bağlantı hatası. Lütfen birkaç dakika sonra tekrar deneyin veya bizimle e-posta license@latepoint.com. UDF732S83"
+
+#: lib/helpers/license_helper.php:69
+msgid "Connection Error. Please try again in a few minutes or contact us via email license@latepoint.com. SUYF8362"
+msgstr "Bağlantı hatası. Lütfen birkaç dakika sonra tekrar deneyin veya bizimle e-posta license@latepoint.com. SUYF8362"
+
+#: lib/helpers/location_helper.php:108
+msgid "Main Location"
+msgstr "Ana konum"
+
+#: lib/helpers/menu_helper.php:19
+msgid "My Dashboard"
+msgstr "Gösterge Panelim"
+
+#: lib/helpers/menu_helper.php:20
+msgid "My Calendar"
+msgstr "Takvimim"
+
+#: lib/helpers/menu_helper.php:29 lib/helpers/menu_helper.php:56
+msgid "All Appointments"
+msgstr "Tüm Randevular"
+
+#: lib/helpers/menu_helper.php:33
+msgid "My Customers"
+msgstr "Benim danışanlerim"
+
+#: lib/helpers/menu_helper.php:35 lib/helpers/menu_helper.php:72 lib/views/customers/index.php:76 lib/views/search/query_results.php:13
+msgid "Add Customer"
+msgstr "Danışan ekle"
+
+#: lib/helpers/menu_helper.php:36 lib/helpers/menu_helper.php:71
+msgid "List of Customers"
+msgstr "Danışanlerin Listesi"
+
+#: lib/helpers/menu_helper.php:39
+msgid "My Settings"
+msgstr "Ayarlarım"
+
+#: lib/helpers/menu_helper.php:47
+msgid "Calendar"
+msgstr "Takvim"
+
+#: lib/helpers/menu_helper.php:61
+msgid "Records"
+msgstr "Kayıtlar"
+
+#: lib/helpers/menu_helper.php:64
+msgid "List of Services"
+msgstr "Hizmet Listesi"
+
+#: lib/helpers/menu_helper.php:80
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: lib/helpers/menu_helper.php:81
+msgid "Work Schedule"
+msgstr "Çalışma programı"
+
+#: lib/helpers/menu_helper.php:84
+msgid "Steps"
+msgstr "Adımlar"
+
+#: lib/helpers/menu_helper.php:85
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: lib/helpers/menu_helper.php:88
+msgid "Add-ons"
+msgstr "Eklenti"
+
+#: lib/helpers/menu_helper.php:89
+msgid "Updates"
+msgstr "Güncellemeler"
+
+#: lib/helpers/menu_helper.php:103
+msgid "Developer"
+msgstr "Geliştirici"
+
+#: lib/helpers/menu_helper.php:105
+msgid "Setup Wizard"
+msgstr "Kurulum sihirbazı"
+
+#: lib/helpers/menu_helper.php:106
+msgid "Demo Data Install"
+msgstr "Demo Veri Kurulumu"
+
+#: lib/helpers/menu_helper.php:107
+msgid "Database Install"
+msgstr "Veritabanı Kurulumu"
+
+#: lib/helpers/payments_braintree_helper.php:27 lib/helpers/payments_paypal_helper.php:43 lib/helpers/payments_stripe_helper.php:26
+msgid "Payment was processed successfully"
+msgstr "Ödeme başarıyla işlendi"
+
+#: lib/helpers/payments_braintree_helper.php:31
+msgid "Error! LKFDJF834"
+msgstr "Hata! LKFDJF834"
+
+#: lib/helpers/payments_braintree_helper.php:34
+msgid "Unknown Error! IFD38FHS"
+msgstr "Bilinmeyen hata! IFD38FHS"
+
+#: lib/helpers/payments_braintree_helper.php:39 lib/helpers/payments_paypal_helper.php:47 lib/helpers/payments_stripe_helper.php:68
+msgid "Card information is invalid"
+msgstr "Kart bilgisi geçersiz"
+
+#: lib/helpers/payments_braintree_helper.php:94
+msgid "Error KLF83JSKS!"
+msgstr "Hata KLF83JSKS!"
+
+#: lib/helpers/payments_braintree_helper.php:108
+msgid "Error JDFHGOS93!"
+msgstr "Hata JDFHGOS93!"
+
+#: lib/helpers/payments_helper.php:31
+msgid "Error! ISJF723493"
+msgstr "Hata! ISJF723493"
+
+#: lib/helpers/payments_stripe_helper.php:39
+msgid "Error! KS98324H"
+msgstr "Hata! KS98324H"
+
+#: lib/helpers/payments_stripe_helper.php:44
+msgid "Error! KF732493"
+msgstr "Hata! KF732493"
+
+#: lib/helpers/payments_stripe_helper.php:49
+msgid "Error! AU38F834"
+msgstr "Hata! AU38F834"
+
+#: lib/helpers/payments_stripe_helper.php:54
+msgid "Error! JS8234HS"
+msgstr "Hata! JS8234HS"
+
+#: lib/helpers/payments_stripe_helper.php:59
+msgid "Error! SU8324HS"
+msgstr "Hata! SU8324HS"
+
+#: lib/helpers/payments_stripe_helper.php:63
+msgid "Unknown Error!"
+msgstr "Bilinmeyen hata!"
+
+#: lib/helpers/reminders_helper.php:87
+msgid "Reminder name can not be blank"
+msgstr "Hatırlatıcı adı boş bırakılamaz"
+
+#: lib/helpers/reminders_helper.php:88
+msgid "Unit has to be selected"
+msgstr "Birimin seçilmesi gerekiyor"
+
+#: lib/helpers/reminders_helper.php:89
+msgid "Before or after has to be selected"
+msgstr "Seçilmeden önce veya sonra"
+
+#: lib/helpers/reminders_helper.php:90
+msgid "Select if SMS or Email Reminder"
+msgstr "SMS mi, E-posta Hatırlatıcı mı seç"
+
+#: lib/helpers/reminders_helper.php:91
+msgid "Reminder message content can not be blank"
+msgstr "Hatırlatıcı mesaj içeriği boş bırakılamaz"
+
+#: lib/helpers/reminders_helper.php:93
+msgid "Value has to be greater than zero"
+msgstr "Değer sıfırdan büyük olmalı"
+
+#: lib/helpers/router_helper.php:62 lib/helpers/router_helper.php:65
+msgid "Page Not Found"
+msgstr "Sayfa bulunamadı"
+
+#: lib/helpers/service_helper.php:87
+msgid "ID: "
+msgstr "İD: "
+
+#: lib/helpers/service_helper.php:88
+msgid "Services Linked"
+msgstr "Bağlantılı Hizmet"
+
+#: lib/helpers/shortcodes_helper.php:50 lib/helpers/shortcodes_helper.php:115 lib/helpers/shortcodes_helper.php:126
+msgid "Book Appointment"
+msgstr "Kitap randevusu"
+
+#: lib/helpers/steps_helper.php:446
+msgid "Another customer is registered with this email."
+msgstr "Başka bir danışan bu e-postaya kayıtlı."
+
+#: lib/helpers/steps_helper.php:461
+msgid "An account with that email address already exists. Please try signing in."
+msgstr "Bu e-posta adresine sahip bir hesap zaten var. Lütfen giriş yapmayı deneyin."
+
+#: lib/helpers/steps_helper.php:530 lib/helpers/steps_helper.php:543 lib/helpers/steps_helper.php:556
+msgid "Pay Now"
+msgstr "Şimdi öde"
+
+#: lib/helpers/steps_helper.php:548
+msgid "Credit Card"
+msgstr "Kredi kartı"
+
+#: lib/helpers/steps_helper.php:564
+msgid "Pay Locally"
+msgstr "Yerel Ödeme"
+
+#: lib/helpers/time_helper.php:94 lib/helpers/time_helper.php:107
+msgid "12-hour clock"
+msgstr "12 saat"
+
+#: lib/helpers/time_helper.php:95 lib/helpers/time_helper.php:107
+msgid "24-hour clock"
+msgstr "24 saat"
+
+#: lib/helpers/time_helper.php:99
+msgid "MM/DD/YYYY"
+msgstr "AA / GG / YYYY"
+
+#: lib/helpers/time_helper.php:100
+msgid "MM.DD.YYYY"
+msgstr "AA.GG.YYYY"
+
+#: lib/helpers/time_helper.php:101
+msgid "DD/MM/YYYY"
+msgstr "GG / AA / YYYY"
+
+#: lib/helpers/time_helper.php:102
+msgid "DD.MM.YYYY"
+msgstr "GG.AA.YYYY"
+
+#: lib/helpers/time_helper.php:103
+msgid "YYYY-MM-DD"
+msgstr "YYYY-AA-GG"
+
+#: lib/helpers/time_helper.php:325
+msgid "Select a city"
+msgstr "Bir şehir seçiniz"
+
+#: lib/helpers/time_helper.php:370 lib/helpers/time_helper.php:375
+msgid "UTC"
+msgstr "UTC"
+
+#: lib/helpers/util_helper.php:123 lib/helpers/util_helper.php:142
+msgid "January"
+msgstr "Ocak"
+
+#: lib/helpers/util_helper.php:124 lib/helpers/util_helper.php:143
+msgid "February"
+msgstr "Şubat"
+
+#: lib/helpers/util_helper.php:125 lib/helpers/util_helper.php:144
+msgid "March"
+msgstr "Mart"
+
+#: lib/helpers/util_helper.php:126 lib/helpers/util_helper.php:145
+msgid "April"
+msgstr "Nisan"
+
+#: lib/helpers/util_helper.php:127 lib/helpers/util_helper.php:146 lib/helpers/util_helper.php:158
+msgid "May"
+msgstr "Mayıs ayı"
+
+#: lib/helpers/util_helper.php:128 lib/helpers/util_helper.php:147
+msgid "June"
+msgstr "Haziran"
+
+#: lib/helpers/util_helper.php:129 lib/helpers/util_helper.php:148
+msgid "July"
+msgstr "Temmuz"
+
+#: lib/helpers/util_helper.php:130 lib/helpers/util_helper.php:149
+msgid "August"
+msgstr "Ağustos"
+
+#: lib/helpers/util_helper.php:131 lib/helpers/util_helper.php:150
+msgid "September"
+msgstr "Eylül"
+
+#: lib/helpers/util_helper.php:132 lib/helpers/util_helper.php:151
+msgid "October"
+msgstr "Ekim"
+
+#: lib/helpers/util_helper.php:133 lib/helpers/util_helper.php:152
+msgid "November"
+msgstr "Kasım"
+
+#: lib/helpers/util_helper.php:134 lib/helpers/util_helper.php:153
+msgid "December"
+msgstr "Aralık"
+
+#: lib/helpers/util_helper.php:154
+msgid "Jan"
+msgstr "Ocak"
+
+#: lib/helpers/util_helper.php:155
+msgid "Feb"
+msgstr "Şubat"
+
+#: lib/helpers/util_helper.php:156
+msgid "Mar"
+msgstr "Mar"
+
+#: lib/helpers/util_helper.php:157
+msgid "Apr"
+msgstr "Nisan"
+
+#: lib/helpers/util_helper.php:159
+msgid "Jun"
+msgstr "Haziran"
+
+#: lib/helpers/util_helper.php:160
+msgid "Jul"
+msgstr "Temmuz"
+
+#: lib/helpers/util_helper.php:161
+msgid "Aug"
+msgstr "Ağustos"
+
+#: lib/helpers/util_helper.php:162
+msgid "Sep"
+msgstr "Eylül"
+
+#: lib/helpers/util_helper.php:163
+msgid "Oct"
+msgstr "Ekim"
+
+#: lib/helpers/util_helper.php:164
+msgid "Nov"
+msgstr "Kasım"
+
+#: lib/helpers/util_helper.php:165
+msgid "Dec"
+msgstr "Aralık"
+
+#: lib/helpers/work_periods_helper.php:22
+msgid "Start"
+msgstr "Başlat"
+
+#: lib/helpers/work_periods_helper.php:23
+msgid "Finish"
+msgstr "Bitiş"
+
+#: lib/helpers/work_periods_helper.php:290
+msgid "Edit Day Schedule"
+msgstr "Gün Planını Düzenle"
+
+#: lib/helpers/work_periods_helper.php:291
+msgid "Are you sure you want to remove custom schedule for this day?"
+msgstr "Bu gün için özel saatlamayı kaldırmak istediğinizden emin misiniz?"
+
+#: lib/helpers/work_periods_helper.php:291 lib/helpers/work_periods_helper.php:340
+msgid "Remove Day Schedule"
+msgstr "Gün Çizelgesini Kaldır"
+
+#: lib/helpers/work_periods_helper.php:311 lib/helpers/work_periods_helper.php:352
+msgid "Add Day"
+msgstr "Gün ekle"
+
+#: lib/helpers/work_periods_helper.php:340
+msgid "Are you sure you want to remove this day?"
+msgstr "Bu günü kaldırmak istediğinden emin misin?"
+
+#: lib/helpers/work_periods_helper.php:439
+#, php-format
+msgid "+%d More"
+msgstr "+ %d Daha fazla"
+
+#: lib/helpers/work_periods_helper.php:462
+#, php-format
+msgid "Add another work period for %s"
+msgstr "%s için başka bir çalışma süresi ekle"
+
+#: lib/mailers/agent_mailer.php:34
+msgid "New Appointment Notification"
+msgstr "Yeni Randevu Bildirimi"
+
+#: lib/mailers/agent_mailer.php:65 lib/mailers/customer_mailer.php:65
+msgid "Appointment status changed"
+msgstr "Randevu durumu değişti"
+
+#: lib/mailers/customer_mailer.php:35 lib/models/step_model.php:175
+msgid "Appointment Confirmation"
+msgstr "Randevu onayı"
+
+#: lib/mailers/customer_mailer.php:93
+msgid "Reset Your Password"
+msgstr "Şifrenizi sıfırlayın"
+
+#: lib/models/activity_model.php:27
+msgid "New Customer Registration"
+msgstr "Yeni Danışan Kaydı"
+
+#: lib/models/activity_model.php:28
+msgid "Customer Profile Update"
+msgstr "Danışan Profili Güncellemesi"
+
+#: lib/models/activity_model.php:29 lib/views/bookings/_form.php:5 lib/views/bookings/_quick_form.php:9 lib/views/customers/dashboard.php:8 lib/views/partials/_top_bar.php:25
+msgid "New Appointment"
+msgstr "Yeni randevu"
+
+#: lib/models/activity_model.php:30
+msgid "Appointment Status Changed"
+msgstr "Randevu Durumu Değişti"
+
+#: lib/models/activity_model.php:31
+msgid "Appointment Edited"
+msgstr "Randevu Düzenlendi"
+
+#: lib/models/activity_model.php:32
+msgid "New Agent"
+msgstr "Yeni ajan"
+
+#: lib/models/activity_model.php:33
+msgid "Agent Profile Update"
+msgstr "Diyetisyen Profil Güncellemesi"
+
+#: lib/models/activity_model.php:34
+msgid "New Coupon"
+msgstr "Yeni Kupon"
+
+#: lib/models/activity_model.php:35
+msgid "Coupon Update"
+msgstr "Kupon Güncellemesi"
+
+#: lib/models/agent_model.php:32 lib/views/agents/_form.php:25 lib/views/bookings/customer_quick_edit_form.php:3 lib/views/customers/_form.php:24 lib/views/wizard/steps/_form_agent.php:5
+msgid "First Name"
+msgstr "İsim"
+
+#: lib/models/agent_model.php:33 lib/views/customers/login.php:6
+msgid "Password"
+msgstr "Parola"
+
+#: lib/models/agent_model.php:34 lib/models/customer_model.php:26 lib/views/agents/_form.php:30 lib/views/bookings/customer_quick_edit_form.php:11 lib/views/customers/_form.php:32 lib/views/customers/login.php:5 lib/views/customers/request_password_reset_token.php:9
+#: lib/views/customers/request_password_reset_token.php:17 lib/views/wizard/steps/_form_agent.php:13
+msgid "Email Address"
+msgstr "E-posta Adresiniz"
+
+#: lib/models/agent_model.php:35
+msgid "Connected WordPress User"
+msgstr "Bağlı WordPress Kullanıcısı"
+
+#: lib/models/agent_model.php:36 lib/views/agents/_form.php:26 lib/views/bookings/customer_quick_edit_form.php:6 lib/views/customers/_form.php:27 lib/views/wizard/steps/_form_agent.php:8
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: lib/models/booking_model.php:172
+msgid "There are no available agents for selected time block."
+msgstr "Seçili saat dilimi için uygun aracı yok."
+
+#: lib/models/booking_model.php:209
+msgid "Payment Token Missing"
+msgstr "Ödeme Simgesi Eksik"
+
+#: lib/models/booking_model.php:241
+msgid "Missing Param"
+msgstr "Kayıp Param"
+
+#: lib/models/booking_model.php:420
+msgid "Any Available Agent"
+msgstr "Mevcut herhangi bir Diyetisyen"
+
+#: lib/models/customer_model.php:25
+msgid "Customer First Name"
+msgstr "Danışan Adı"
+
+#: lib/models/customer_model.php:27
+msgid "Customer Last Name"
+msgstr "Danışan soyadı"
+
+#: lib/models/customer_model.php:109
+#, php-format
+msgid "%s field has to be checked"
+msgstr "%s alanı kontrol edilmeli"
+
+#: lib/models/customer_model.php:115 lib/models/model.php:637
+#, php-format
+msgid "%s can not be blank"
+msgstr "%s boş bırakılamaz"
+
+#: lib/models/location_model.php:17 lib/views/locations/_form.php:16
+msgid "Location Name"
+msgstr "Yer ismi"
+
+#: lib/models/model.php:628
+#, php-format
+msgid "%s is not valid"
+msgstr "%s geçerli değil"
+
+#: lib/models/model.php:650
+#, php-format
+msgid "%s has to be unique"
+msgstr "%s benzersiz olmalı"
+
+#: lib/models/service_category_model.php:15
+msgid "Service Category Name"
+msgstr "Hizmet Kategorisi Adı"
+
+#: lib/models/service_category_model.php:16
+msgid "Service Category Short Description"
+msgstr "Hizmet Kategorisi Kısa Açıklama"
+
+#: lib/models/service_category_model.php:17
+msgid "Service Category Selection Image"
+msgstr "Hizmet Kategorisi Seçim Resmi"
+
+#: lib/models/service_model.php:35 lib/views/services/_form.php:16 lib/views/wizard/steps/_form_service.php:5
+msgid "Service Name"
+msgstr "Hizmet Adı"
+
+#: lib/models/service_model.php:36
+msgid "Service Short Description"
+msgstr "Hizmet Kısa Açıklama"
+
+#: lib/models/service_model.php:37
+msgid "Service Selection Image"
+msgstr "Hizmet Seçimi Resmi"
+
+#: lib/models/service_model.php:38
+msgid "Service Description Image"
+msgstr "Hizmet Açıklaması Image"
+
+#: lib/models/service_model.php:39
+msgid "Variable Price"
+msgstr "Değişken Fiyat"
+
+#: lib/models/service_model.php:40 lib/views/services/_form.php:82
+msgid "Minimum Price"
+msgstr "Minimum fiyat"
+
+#: lib/models/service_model.php:41 lib/views/services/_form.php:85
+msgid "Maximum Price"
+msgstr "Maksimum fiyat"
+
+#: lib/models/service_model.php:42 lib/views/services/_form.php:65
+msgid "Charge Amount"
+msgstr "Ücret Tutarı"
+
+#: lib/models/service_model.php:43 lib/views/services/_form.php:68
+msgid "Deposit Amount"
+msgstr "Depozito Tutarı"
+
+#: lib/models/service_model.php:44
+msgid "Service Duration"
+msgstr "Hizmet süresi"
+
+#: lib/models/service_model.php:45 lib/views/bookings/_form.php:90 lib/views/bookings/_quick_form.php:137
+msgid "Buffer Before"
+msgstr "Önce Tampon"
+
+#: lib/models/service_model.php:46 lib/views/bookings/_form.php:91 lib/views/bookings/_quick_form.php:140
+msgid "Buffer After"
+msgstr "Tampon Sonrası"
+
+#: lib/models/service_model.php:47 lib/views/services/_form.php:18
+msgid "Background Color"
+msgstr "Arka plan rengi"
+
+#: lib/models/service_model.php:48
+msgid "Service Category"
+msgstr "Hizmet Kategorisi"
+
+#: lib/models/step_model.php:131 lib/views/bookings/_quick_form.php:89
+msgid "Select Location"
+msgstr "Konum Seç"
+
+#: lib/models/step_model.php:133
+msgid "Location Selection"
+msgstr "Yer Seçimi"
+
+#: lib/models/step_model.php:134
+msgid "Please select a location you want the service to be performed at"
+msgstr "Lütfen hizmetin gerçekleştirilmesini istediğiniz bir konum seçin"
+
+#: lib/models/step_model.php:137 lib/views/bookings/_form.php:39 lib/views/bookings/_quick_form.php:63
+msgid "Select Service"
+msgstr "Hizmet Seç"
+
+#: lib/models/step_model.php:139
+msgid "Service Selection"
+msgstr "Hizmet seçimi"
+
+#: lib/models/step_model.php:140
+msgid "Please select a service for which you want to schedule an appointment"
+msgstr "Lütfen randevu almak istediğiniz bir hizmeti seçin"
+
+#: lib/models/step_model.php:143 lib/views/bookings/_form.php:53
+msgid "Select Agent"
+msgstr "Diyetisyen Seç"
+
+#: lib/models/step_model.php:145
+msgid "Agent Selection"
+msgstr "Diyetisyen Seçimi"
+
+#: lib/models/step_model.php:146
+msgid "You can pick a specific agent to perform your service or select any to automatically assign you one"
+msgstr "Hizmetinizi gerçekleştirmek için belirli bir aracı seçebilir veya size otomatik olarak bir temsilci atamak için herhangi birini seçebilirsiniz"
+
+#: lib/models/step_model.php:149
+msgid "Select Date & Time"
+msgstr "Tarih ve Saati Seçin"
+
+#: lib/models/step_model.php:151
+msgid "Date & Time Selection"
+msgstr "Tarih ve Saat Seçimi"
+
+#: lib/models/step_model.php:152
+msgid "Click on a date to see a timeline of available slots, click on a green time slot to reserve it"
+msgstr "Kullanılabilir slotların saat çizelgesini görmek için bir tarihe tıklayın, ayırmak için yeşil bir saat dilimine tıklayın"
+
+#: lib/models/step_model.php:155
+msgid "Enter Information"
+msgstr "Bilgi Girin"
+
+#: lib/models/step_model.php:157
+msgid "Customer Information"
+msgstr "Danışan Bilgileri"
+
+#: lib/models/step_model.php:158
+msgid "Please provide you contact details so we can send you a confirmation and other contact info"
+msgstr "Size bir onay ve diğer iletişim bilgilerini gönderebilmemiz için lütfen iletişim bilgilerinizi verin"
+
+#: lib/models/step_model.php:161 lib/views/bookings/_quick_form.php:210
+msgid "Payment Method"
+msgstr "Ödeme şekli"
+
+#: lib/models/step_model.php:163
+msgid "Your Payment Information"
+msgstr "Ödeme Bilgileriniz"
+
+#: lib/models/step_model.php:164
+msgid "You can either pay online using your credit card or PayPal, or you can pay on arrival with cash"
+msgstr "Kredi kartınızı veya PayPal'ınızı kullanarak online ödeme yapabilir veya varışta nakit ödeme yapabilirsiniz"
+
+#: lib/models/step_model.php:167
+msgid "Verify Order Details"
+msgstr "Randevu Ayrıntılarını Doğrula"
+
+#: lib/models/step_model.php:169
+msgid "Verify Booking Details"
+msgstr "Randevu Ayrıntılarını Doğrula"
+
+#: lib/models/step_model.php:170
+msgid "Double check your reservation details and click submit button if everything is correct"
+msgstr "Randevu detaylarınızı iki kez kontrol edin ve her şey doğruysa gönder düğmesine basın"
+
+#: lib/models/step_model.php:173
+msgid "Confirmation"
+msgstr "Onaylandı"
+
+#: lib/models/step_model.php:176
+msgid "Your appointment has been successfully scheduled. Please retain this confirmation for your record."
+msgstr "Randevunuz başarıyla planlandı. Lütfen bu onayı kaydınız için saklayın."
+
+#: lib/models/work_period_model.php:20 lib/views/bookings/_form.php:86 lib/views/bookings/_quick_form.php:127
+msgid "Start Time"
+msgstr "Başlama saatı"
+
+#: lib/models/work_period_model.php:21 lib/views/bookings/_form.php:87 lib/views/bookings/_quick_form.php:130
+msgid "End Time"
+msgstr "Bitiş saatı"
+
+#: lib/views/activities/index.php:7 lib/views/activities/index.php:25
+msgid "Type"
+msgstr "Tür"
+
+#: lib/views/activities/index.php:8 lib/views/activities/index.php:26
+msgid "Action By"
+msgstr "Eylem tarafından"
+
+#: lib/views/activities/index.php:9 lib/views/activities/index.php:27
+msgid "Date/Time"
+msgstr "Tarih / Saat"
+
+#: lib/views/activities/index.php:16
+msgid "View"
+msgstr "Görünüm"
+
+#: lib/views/activities/index.php:36
+msgid "No Activity"
+msgstr "Aktivite yok"
+
+#: lib/views/addons/index.php:2
+msgid "Loading Addons Information"
+msgstr "Eklenti Bilgilerini Yükleme"
+
+#: lib/views/addons/load_addons_list.php:25 lib/views/addons/load_addons_list.php:31
+msgid "Latest Version: "
+msgstr "En son versiyon: "
+
+#: lib/views/addons/load_addons_list.php:26 lib/views/addons/load_addons_list.php:28
+msgid "Installed Version: "
+msgstr "Kurulu Sürüm: "
+
+#: lib/views/addons/load_addons_list.php:40 lib/views/updates/check_version_status.php:16
+msgid "Update Now"
+msgstr "Şimdi güncelle"
+
+#: lib/views/addons/load_addons_list.php:49 lib/views/addons/load_addons_list.php:59
+msgid "Install Now"
+msgstr "Şimdi kur"
+
+#: lib/views/addons/load_addons_list.php:54
+msgid "Purchase"
+msgstr "Satın alma"
+
+#: lib/views/agents/_form.php:16 lib/views/customers/_form.php:10
+msgid "General Information"
+msgstr "Genel bilgi"
+
+#: lib/views/agents/_form.php:18
+msgid "Agent ID:"
+msgstr "Diyetisyen Kimliği:"
+
+#: lib/views/agents/_form.php:23 lib/views/customers/_form.php:19
+msgid "Set Avatar"
+msgstr "Avatarı Ayarla"
+
+#: lib/views/agents/_form.php:23 lib/views/customers/_form.php:19
+msgid "Remove Avatar"
+msgstr "Avatarı kaldır"
+
+#: lib/views/agents/_form.php:27
+msgid "Display Name"
+msgstr "Ekran adı"
+
+#: lib/views/agents/_form.php:31 lib/views/customers/_form.php:35 lib/views/wizard/steps/_form_agent.php:16
+msgid "Phone Number"
+msgstr "Telefon numarası"
+
+#: lib/views/agents/_form.php:35
+msgid "Connect to WP User"
+msgstr "WP Kullanıcısına Bağlan"
+
+#: lib/views/agents/_form.php:35
+msgid "Select User"
+msgstr "Kullanıcı seç"
+
+#: lib/views/agents/_form.php:36 lib/views/locations/_form.php:17 lib/views/services/_form.php:22
+msgid "Active"
+msgstr "Aktif"
+
+#: lib/views/agents/_form.php:36 lib/views/locations/_form.php:17 lib/views/services/_form.php:22
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: lib/views/agents/_form.php:44
+msgid "Additional Contact Information"
+msgstr "Ek İletişim Bilgileri"
+
+#: lib/views/agents/_form.php:48
+msgid "If you need to notify multiple persons about the appointment, you can list additional email addresses and phone numbers to send notification emails and sms to. You can list multiple numbers and emails separated by commas."
+msgstr "Randevuyla ilgili olarak birden fazla kişiyi bilgilendirmeniz gerekirse, bildirim e-postaları ve sms'leri göndermek için ek e-posta adreslerini ve telefon numaralarını listeleyebilirsiniz. Virgülle ayrılmış olarak birden çok numara ve e-posta listeleyebilirsiniz."
+
+#: lib/views/agents/_form.php:50
+msgid "Additional Email Addresses"
+msgstr "Ek e-posta adresleri"
+
+#: lib/views/agents/_form.php:51
+msgid "Additional Phone Numbers"
+msgstr "Ek Telefon Numaraları"
+
+#: lib/views/agents/_form.php:58
+msgid "Extra Information"
+msgstr "Ekstra Bilgi"
+
+#: lib/views/agents/_form.php:63
+msgid "Set Bio Image"
+msgstr "Bio Resmini Ayarla"
+
+#: lib/views/agents/_form.php:63
+msgid "Remove Bio Image"
+msgstr "Bio Image Kaldır"
+
+#: lib/views/agents/_form.php:64
+msgid "Agent Title"
+msgstr "Diyetisyen Başlığı"
+
+#: lib/views/agents/_form.php:65
+msgid "Bio Text"
+msgstr "Biyo Metin"
+
+#: lib/views/agents/_form.php:66
+msgid "Agent Highlights"
+msgstr "Diyetisyenın Önemli Noktaları"
+
+#: lib/views/agents/_form.php:67
+msgid "These value-label pairs will appear on agent information popup. You can enter things like years of experience, or number of clients served, to highlight agent accomplishments."
+msgstr "Bu değer etiketi çiftleri, aracı bilgileri açılır penceresinde görünecektir. Diyetisyen başarılarını vurgulamak için yılların deneyimi veya hizmet verilen danışan sayısı gibi şeylere girebilirsiniz."
+
+#: lib/views/agents/_form.php:73
+msgid "Highlight #"
+msgstr "Vurgulamak #"
+
+#: lib/views/agents/_form.php:75
+msgid "Value"
+msgstr "Değer"
+
+#: lib/views/agents/_form.php:76
+msgid "Label"
+msgstr "Etiket"
+
+#: lib/views/agents/_form.php:86
+msgid "Offered Services"
+msgstr "Sunulan Hizmet"
+
+#: lib/views/agents/_form.php:88 lib/views/locations/_form.php:36 lib/views/services/_form.php:105
+msgid "Select All"
+msgstr "Hepsini seç"
+
+#: lib/views/agents/_form.php:114 lib/views/locations/_form.php:61
+msgid "Services Selected"
+msgstr "Seçilen Hizmet"
+
+#: lib/views/agents/_form.php:116 lib/views/locations/_form.php:63 lib/views/services/_form.php:133
+msgid "Customize"
+msgstr "Özelleştirmek"
+
+#: lib/views/agents/_form.php:120
+#, php-format
+msgid "Select services offered at %s"
+msgstr "%s sunulan hizmeti seçin"
+
+#: lib/views/agents/_form.php:150
+msgid "Set Custom Values"
+msgstr "Özel Değerleri Ayarla"
+
+#: lib/views/agents/_form.php:166
+msgid "Agent Schedule"
+msgstr "Diyetisyen Programı"
+
+#: lib/views/agents/_form.php:168 lib/views/locations/_form.php:94 lib/views/services/_form.php:164
+msgid "Set Custom Schedule"
+msgstr "Özel Saatlamayı Ayarla"
+
+#: lib/views/agents/_form.php:178
+msgid "This agent is using general schedule which is set in main settings"
+msgstr "Bu aracı, ana ayarlarda ayarlanan genel saatlamayı kullanıyor"
+
+#: lib/views/agents/_form.php:188 lib/views/locations/_form.php:113 lib/views/services/_form.php:184 lib/views/settings/work_periods.php:17
+msgid "Days With Custom Schedules"
+msgstr "Özel Tarifeleri olan Günler"
+
+#: lib/views/agents/_form.php:191
+msgid "Agent shares custom daily schedules that you set in general settings for your company, however you can add additional days with custom hours which will be specific to this agent only."
+msgstr "Diyetisyen, şirketiniz için genel ayarlarda belirlediğiniz özel günlük programları paylaşır, ancak yalnızca bu ajana özgü olacak özel saatlerle ek günler ekleyebilirsiniz."
+
+#: lib/views/agents/_form.php:197 lib/views/locations/_form.php:122 lib/views/services/_form.php:193 lib/views/settings/work_periods.php:25
+msgid "Holidays & Days Off"
+msgstr "Tatiller ve Günler Kapalı"
+
+#: lib/views/agents/_form.php:200
+msgid "Agent uses the same holidays you set in general settings for your company, however you can add additional holidays for this agent here."
+msgstr "Temsilci, şirketiniz için genel olarak ayarladığınız tatilleri kullanır, ancak bu temsilciye ek tatiller ekleyebilirsiniz."
+
+#: lib/views/agents/_form.php:210 lib/views/agents/index.php:19 lib/views/search/query_results.php:29 lib/views/wizard/steps/_list_agents.php:27
+msgid "Add Agent"
+msgstr "Diyetisyen ekle"
+
+#: lib/views/agents/_form.php:213 lib/views/bookings/_form.php:147 lib/views/bookings/_quick_form.php:284 lib/views/customers/_form.php:87 lib/views/customers/dashboard.php:80 lib/views/locations/_form.php:136 lib/views/services/_form.php:208 lib/views/wizard/steps/_form_agent.php:32
+#: lib/views/wizard/steps/_form_service.php:41
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: lib/views/agents/_form.php:216 lib/views/wizard/steps/_list_agents.php:10
+msgid "Are you sure you want to remove this agent?"
+msgstr "Bu aracıyı silmek istediğinize emin misiniz?"
+
+#: lib/views/agents/_form.php:220
+msgid "Delete Agent"
+msgstr "Aracı Sil"
+
+#: lib/views/agents/modal_list.php:2
+msgid "Select Agents"
+msgstr "Acenteleri Seç"
+
+#: lib/views/agents/modal_list.php:14 lib/views/bookings/_form.php:148 lib/views/bookings/_quick_form.php:287 lib/views/customers/_booking_tile.php:31 lib/views/service_categories/_form.php:22 lib/views/settings/steps.php:45 lib/views/wizard/steps/_form_agent.php:26
+#: lib/views/wizard/steps/_form_service.php:35
+msgid "Cancel"
+msgstr "İptal etmek"
+
+#: lib/views/agents/modal_list.php:15
+msgid "Save Agents"
+msgstr "Aracıları Kaydet"
+
+#: lib/views/bookings/_form.php:7 lib/views/bookings/_quick_form.php:11
+msgid "Edit Appointment #"
+msgstr "Randevuyu Düzenle #"
+
+#: lib/views/bookings/_form.php:47
+msgid "Change"
+msgstr "Değişiklik"
+
+#: lib/views/bookings/_form.php:69
+msgid "Call"
+msgstr "Aramak"
+
+#: lib/views/bookings/_form.php:70
+msgid "Text"
+msgstr "Metin"
+
+#: lib/views/bookings/_form.php:78 lib/views/bookings/_quick_form.php:117
+msgid "Start Date"
+msgstr "Başlangıç tarihi"
+
+#: lib/views/bookings/_form.php:81 lib/views/bookings/_quick_form.php:112
+msgid "Set Status"
+msgstr "Durumu Ayarla"
+
+#: lib/views/bookings/_form.php:100
+msgid "Edit"
+msgstr "Düzenle"
+
+#: lib/views/bookings/_form.php:103 lib/views/bookings/_quick_form.php:158
+msgid "New"
+msgstr "Yeni"
+
+#: lib/views/bookings/_form.php:106 lib/views/bookings/_quick_form.php:161
+msgid "Find"
+msgstr "Bul"
+
+#: lib/views/bookings/_form.php:113 lib/views/bookings/_quick_form.php:168
+msgid "Start typing to search..."
+msgstr "Aramak için yazmaya başlayın ..."
+
+#: lib/views/bookings/_form.php:116 lib/views/bookings/_quick_form.php:171 lib/views/customers/password_reset_form.php:3 lib/views/customers/request_password_reset_token.php:3
+msgid "cancel"
+msgstr "iptal etmek"
+
+#: lib/views/bookings/_form.php:127 lib/views/bookings/_quick_form.php:186 lib/views/bookings/pending_approval.php:31 lib/views/bookings/pending_approval.php:50 lib/views/dashboard/_booking_info_box_small.php:20 lib/views/dashboard/_booking_info_box_small.php:36
+msgid "Email: "
+msgstr "Email: "
+
+#: lib/views/bookings/_form.php:131 lib/views/bookings/_quick_form.php:190 lib/views/bookings/pending_approval.php:27 lib/views/bookings/pending_approval.php:46 lib/views/dashboard/_booking_info_box_small.php:16 lib/views/dashboard/_booking_info_box_small.php:32
+msgid "Phone: "
+msgstr "Telefon: "
+
+#: lib/views/bookings/_quick_form.php:21
+msgid "Start typing to filter..."
+msgstr "Filtrelemek için yazmaya başlayın ..."
+
+#: lib/views/bookings/_quick_form.php:70
+msgid "No Active Services Found."
+msgstr "Etkin Hizmet Bulunamadı."
+
+#: lib/views/bookings/_quick_form.php:120
+msgid "Show Calendar"
+msgstr "Takvimi Göster"
+
+#: lib/views/bookings/_quick_form.php:145
+msgid "Comment left by customer"
+msgstr "Ek bilgi notu danışan tarafından bırakıldı"
+
+#: lib/views/bookings/_quick_form.php:206
+msgid "Payment Information"
+msgstr "Ödeme Bilgileri"
+
+#: lib/views/bookings/_quick_form.php:213
+msgid "Payment Portion"
+msgstr "Ödeme kısmı"
+
+#: lib/views/bookings/_quick_form.php:213
+msgid "Not Applicable"
+msgstr "Uygulanamaz"
+
+#: lib/views/bookings/_quick_form.php:218
+msgid "Booking Price"
+msgstr "Randevu Fiyatı"
+
+#: lib/views/bookings/_quick_form.php:223
+msgid "Recalculate"
+msgstr "Yeniden Hesapla"
+
+#: lib/views/bookings/_quick_form.php:229
+msgid "Coupon Code"
+msgstr "Kupon Kodu"
+
+#: lib/views/bookings/_quick_form.php:249
+msgid "New Transaction Form"
+msgstr "Yeni İşlem Formu"
+
+#: lib/views/bookings/_quick_form.php:252 lib/views/transactions/index.php:13 lib/views/transactions/index.php:51
+msgid "Amount"
+msgstr "Miktar"
+
+#: lib/views/bookings/_quick_form.php:255 lib/views/bookings/index.php:10 lib/views/bookings/index.php:56 lib/views/calendars/monthly_agents.php:22 lib/views/calendars/weekly_agent.php:32 lib/views/customers/_booking_tile.php:6 lib/views/steps/start.php:56 lib/views/transactions/index.php:15
+#: lib/views/transactions/index.php:53
+msgid "Date"
+msgstr "Tarih"
+
+#: lib/views/bookings/_quick_form.php:260
+msgid "Confirmation Number"
+msgstr "Onay numarası"
+
+#: lib/views/bookings/_quick_form.php:265 lib/views/transactions/index.php:11 lib/views/transactions/index.php:49
+msgid "Processor"
+msgstr "İşlemci"
+
+#: lib/views/bookings/_quick_form.php:268 lib/views/transactions/index.php:12 lib/views/transactions/index.php:50
+msgid "Method"
+msgstr "Yöntem"
+
+#: lib/views/bookings/_quick_form.php:271 lib/views/bookings/_quick_form.php:276
+msgid "Add Transaction"
+msgstr "İşlem ekle"
+
+#: lib/views/bookings/_table_body.php:27
+msgid "Edit Record"
+msgstr "Kaydı Düzenle"
+
+#: lib/views/bookings/customer_quick_edit_form.php:16
+msgid "Telephone Number"
+msgstr "Telefon numarası"
+
+#: lib/views/bookings/customer_quick_edit_form.php:21
+msgid "Customer Notes"
+msgstr "Danışan Notları"
+
+#: lib/views/bookings/customer_quick_edit_form.php:26
+msgid "Notes only visible to admins"
+msgstr "Yalnızca yöneticiler tarafından görünen notlar"
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:9 lib/views/calendars/_booking_box_on_calendar.php:26
+msgid "Booked:"
+msgstr "Randevu:"
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:9 lib/views/calendars/_booking_box_on_calendar.php:26
+#, php-format
+msgid "%d of %d"
+msgstr "%d / %d"
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:27 lib/views/dashboard/widget_upcoming_appointments.php:63
+msgid "Attendies"
+msgstr "Attendies"
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:38 lib/views/dashboard/widget_agents_bookings_timeline.php:119
+msgid "Add Appointment"
+msgstr "Randevu Ekle"
+
+#: lib/views/bookings/index.php:11 lib/views/bookings/index.php:57 lib/views/calendars/weekly_agent.php:33 lib/views/customers/_booking_tile.php:9 lib/views/steps/start.php:57
+msgid "Time"
+msgstr "Saat"
+
+#: lib/views/bookings/index.php:15 lib/views/bookings/index.php:61
+msgid "Created On"
+msgstr "Oluşturulma Tarihi"
+
+#: lib/views/bookings/index.php:16 lib/views/bookings/index.php:62 lib/views/customers/index.php:16 lib/views/customers/index.php:52
+msgid "Actions"
+msgstr "Eylemler"
+
+#: lib/views/bookings/index.php:20 lib/views/dashboard/widget_daily_bookings_chart.php:17 lib/views/dashboard/widget_performance_charts.php:17 lib/views/dashboard/widget_upcoming_appointments.php:16
+msgid "All Services"
+msgstr "Tüm Hizmet"
+
+#: lib/views/bookings/index.php:23 lib/views/bookings/index.php:24
+msgid "Search by Appointment Date"
+msgstr "Randevu Tarihine Göre Ara"
+
+#: lib/views/bookings/index.php:23 lib/views/bookings/index.php:38
+msgid "Reset Date Search"
+msgstr "Tarihi Aramayı Sıfırla"
+
+#: lib/views/bookings/index.php:32 lib/views/dashboard/widget_daily_bookings_chart.php:8 lib/views/dashboard/widget_performance_charts.php:8 lib/views/dashboard/widget_upcoming_appointments.php:8
+msgid "All Agents"
+msgstr "Tüm Diyetisyenlar"
+
+#: lib/views/bookings/index.php:34
+msgid "Search by Customer"
+msgstr "Danışanye göre ara"
+
+#: lib/views/bookings/index.php:35
+msgid "All Statuses"
+msgstr "Tüm Durumlar"
+
+#: lib/views/bookings/index.php:38 lib/views/bookings/index.php:39
+msgid "Filter Date"
+msgstr "Filtre Tarihi"
+
+#: lib/views/bookings/index.php:46 lib/views/customers/index.php:36
+msgid "Download .csv"
+msgstr ".Csv indir"
+
+#: lib/views/bookings/index.php:69
+msgid "Showing bookings"
+msgstr "Randevu gösteriliyor"
+
+#: lib/views/bookings/index.php:69 lib/views/customers/index.php:59
+msgid "to"
+msgstr "için"
+
+#: lib/views/bookings/index.php:69 lib/views/customers/index.php:59 lib/views/dashboard/_booking_info_box_small.php:48 lib/views/dashboard/widget_upcoming_appointments.php:50
+msgid "of"
+msgstr "arasında"
+
+#: lib/views/bookings/index.php:71 lib/views/customers/index.php:61
+msgid "Page:"
+msgstr "Sayfa:"
+
+#: lib/views/bookings/index.php:86
+msgid "No Existing Appointments Found"
+msgstr "Mevcut Randevu Bulunamadı"
+
+#: lib/views/bookings/index.php:87
+msgid "Add First Appointment"
+msgstr "İlk Randevu Ekle"
+
+#: lib/views/bookings/pending_approval.php:14 lib/views/notifications/_available_vars.php:15
+msgid "Status:"
+msgstr "Durum:"
+
+#: lib/views/bookings/pending_approval.php:57
+msgid "Approve"
+msgstr "Onayla"
+
+#: lib/views/bookings/pending_approval.php:60
+msgid "Reject"
+msgstr "Reddet"
+
+#: lib/views/bookings/pending_approval.php:68
+#, php-format
+msgid "Showing appointments %d to %d of %d total"
+msgstr "%d ila %d / %d atama toplamı gösteriliyor"
+
+#: lib/views/bookings/pending_approval.php:86
+msgid "No Pending Appointments Found"
+msgstr "Bekleyen Randevu Bulunamadı"
+
+#: lib/views/bookings/pending_approval.php:87 lib/views/customers/_form.php:134 lib/views/dashboard/widget_daily_bookings_chart.php:79 lib/views/dashboard/widget_top_agents.php:59 lib/views/dashboard/widget_upcoming_appointments.php:87
+msgid "Create Appointment"
+msgstr "Randevu Oluştur"
+
+#: lib/views/bookings/quick_availability.php:6
+msgid "Load next 30 days"
+msgstr "Önümüzdeki 30 güne yükle"
+
+#: lib/views/bookings/quick_availability.php:17
+msgid "Availability for"
+msgstr "İçin uygunluk"
+
+#: lib/views/calendars/daily_agent.php:82 lib/views/calendars/daily_agents.php:106
+msgid "You have not set any working hours for this day."
+msgstr "Bu gün için hiç çalışma saati ayarlamamışsınız."
+
+#: lib/views/calendars/daily_agent.php:83 lib/views/calendars/daily_agents.php:107
+msgid "Edit Working Hours"
+msgstr "Çalışma Saatlerini Düzenle"
+
+#: lib/views/calendars/daily_agent.php:91
+msgid "Daily Statistics"
+msgstr "Günlük İstatistikler"
+
+#: lib/views/calendars/daily_agent.php:104
+msgid "Openings"
+msgstr "Açılışlar"
+
+#: lib/views/calendars/daily_agent.php:118 lib/views/dashboard/widget_top_agents.php:37
+msgid "Revenue"
+msgstr "Gelir"
+
+#: lib/views/calendars/daily_agent.php:126
+msgid "Availability For"
+msgstr "Uygunluk durumu"
+
+#: lib/views/calendars/daily_agent.php:143 lib/views/calendars/daily_agents.php:117
+msgid "No Agents or Services Created"
+msgstr "Diyetisyen veya Hizmet Oluşturulmadı"
+
+#: lib/views/calendars/daily_agent.php:144 lib/views/calendars/daily_agents.php:118 lib/views/calendars/monthly_agents.php:106 lib/views/dashboard/widget_agents_availability_timeline.php:34 lib/views/dashboard/widget_agents_bookings_timeline.php:130
+msgid "Create Agent"
+msgstr "Diyetisyen Yarat"
+
+#: lib/views/calendars/daily_agent.php:145 lib/views/calendars/daily_agents.php:119
+msgid "Create Service"
+msgstr "Hizmet Yarat"
+
+#: lib/views/calendars/monthly_agents.php:5
+msgid "Calendar Month"
+msgstr "Aylık takvim"
+
+#: lib/views/calendars/monthly_agents.php:105 lib/views/dashboard/widget_agents_availability_timeline.php:33 lib/views/dashboard/widget_agents_bookings_timeline.php:129
+msgid "No Agents Created"
+msgstr "Hiçbir Diyetisyen Oluşturulmadı"
+
+#: lib/views/calendars/weekly_agent.php:5
+msgid "Show Agent:"
+msgstr "Diyetisyenı Göster:"
+
+#: lib/views/calendars/weekly_agent.php:108
+msgid "Looks like you have not set your working hours yet."
+msgstr "Çalışma saatlerini henüz ayarlamamış gibisin."
+
+#: lib/views/custom_fields/_custom_field_form.php:8
+msgid "New Field"
+msgstr "Yeni alan"
+
+#: lib/views/custom_fields/_custom_field_form.php:15
+msgid "Field Label"
+msgstr "Alan Etiketi"
+
+#: lib/views/custom_fields/_custom_field_form.php:18
+msgid "Placeholder"
+msgstr "Yer tutucu"
+
+#: lib/views/custom_fields/_custom_field_form.php:21
+msgid "Field Type"
+msgstr "Alan türü"
+
+#: lib/views/custom_fields/_custom_field_form.php:21
+msgid "Text Field"
+msgstr "Metin alanı"
+
+#: lib/views/custom_fields/_custom_field_form.php:22
+msgid "Select Box"
+msgstr "Kutu Seç"
+
+#: lib/views/custom_fields/_custom_field_form.php:23
+msgid "Text Area Field"
+msgstr "Metin Alanı Alanı"
+
+#: lib/views/custom_fields/_custom_field_form.php:24
+msgid "Checkbox"
+msgstr "Onay Kutusu"
+
+#: lib/views/custom_fields/_custom_field_form.php:27
+msgid "Field Width"
+msgstr "Alan genişliği"
+
+#: lib/views/custom_fields/_custom_field_form.php:27
+msgid "Full Width"
+msgstr "Tam genişlik"
+
+#: lib/views/custom_fields/_custom_field_form.php:28
+msgid "Half Width"
+msgstr "Yarı genişlik"
+
+#: lib/views/custom_fields/_custom_field_form.php:31
+msgid "Choices for Select. Enter each choice on a new line."
+msgstr "Seçme Seçimleri. Her seçimi yeni bir satıra girin."
+
+#: lib/views/custom_fields/_custom_field_form.php:34
+msgid "Required?"
+msgstr "Gereklidir?"
+
+#: lib/views/custom_fields/_custom_field_form.php:37 lib/views/reminders/new_form.php:45 lib/views/steps/_confirmation.php:77
+msgid "Save"
+msgstr "Kayıt etmek"
+
+#: lib/views/custom_fields/_custom_field_form.php:41
+msgid "Are you sure you want to remove this field?"
+msgstr "Bu alanı kaldırmak istediğinize emin misiniz?"
+
+#: lib/views/custom_fields/for_customer.php:1
+msgid "Custom Fields for Customers"
+msgstr "Danışanler İçin Özel Alanlar"
+
+#: lib/views/custom_fields/for_customer.php:11
+msgid "Add Custom Field"
+msgstr "Özel Alan Ekle"
+
+#: lib/views/customers/_booking_tile.php:26 lib/views/steps/_confirmation.php:6
+msgid "Add to Calendar"
+msgstr "Takvime ekle"
+
+#: lib/views/customers/_form.php:12
+msgid "Customer ID:"
+msgstr "Danışan Kimliği:"
+
+#: lib/views/customers/_form.php:40
+msgid "Notes by Customer"
+msgstr "Danışan tarafından notlar"
+
+#: lib/views/customers/_form.php:45
+msgid "Notes by admins, only visible to admins"
+msgstr "Yöneticiler tarafından verilen notlar, yalnızca yöneticiler tarafından görülebilir"
+
+#: lib/views/customers/_form.php:84
+msgid "Save Customer"
+msgstr "Danışanyi Kurtar"
+
+#: lib/views/customers/_form.php:89
+msgid "Are you sure you want to delete this customer? It will remove all appointments and transactions associated with this customer."
+msgstr "Bu danışanyi silmek istediğinden emin misin? Bu danışanyle ilişkili tüm randevuları ve işlemleri kaldıracaktır."
+
+#: lib/views/customers/_form.php:93
+msgid "Delete Customer"
+msgstr "Danışanyi Sil"
+
+#: lib/views/customers/_form.php:131
+msgid "Customer does not have any bookings"
+msgstr "Danışannin hiçbir randevuu yok"
+
+#: lib/views/customers/_table_body.php:16
+msgid "Past"
+msgstr "Geçmiş"
+
+#: lib/views/customers/_table_body.php:18
+msgid "View Profile"
+msgstr "Profili Görüntüle"
+
+#: lib/views/customers/dashboard.php:2 lib/views/partials/_top_bar.php:52 lib/views/steps/_contact.php:5
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: lib/views/customers/dashboard.php:3
+#, php-format
+msgid "Welcome %s"
+msgstr "%s Hoşgeldiniz"
+
+#: lib/views/customers/dashboard.php:6
+msgid "My Appointments"
+msgstr "Randevularım"
+
+#: lib/views/customers/dashboard.php:7
+msgid "My Information"
+msgstr "Benim bilgim"
+
+#: lib/views/customers/dashboard.php:14
+msgid "My Timezone:"
+msgstr "Saat dilimim:"
+
+#: lib/views/customers/dashboard.php:20 lib/views/dashboard/widget_upcoming_appointments.php:80
+msgid "Upcoming Appointments"
+msgstr "Yaklaşan Randevular"
+
+#: lib/views/customers/dashboard.php:21 lib/views/customers/dashboard.php:35
+#, php-format
+msgid "%d Appointments"
+msgstr "%d Randevular"
+
+#: lib/views/customers/dashboard.php:34
+msgid "Past Appointments"
+msgstr "Geçmiş Randevular"
+
+#: lib/views/customers/dashboard.php:46
+msgid "No appointments found"
+msgstr "Randevu bulunamadı"
+
+#: lib/views/customers/dashboard.php:53 lib/views/steps/_contact_form.php:2
+msgid "Your First Name"
+msgstr "Adınız"
+
+#: lib/views/customers/dashboard.php:54 lib/views/steps/_contact_form.php:3
+msgid "Your Last Name"
+msgstr "Soyadınız"
+
+#: lib/views/customers/dashboard.php:55 lib/views/steps/_contact_form.php:4
+msgid "Your Phone Number"
+msgstr "Telefon Numaranız"
+
+#: lib/views/customers/dashboard.php:56 lib/views/steps/_contact.php:22 lib/views/steps/_contact_form.php:5 lib/views/updates/_license_form.php:18
+msgid "Your Email Address"
+msgstr "E-posta Adresiniz"
+
+#: lib/views/customers/dashboard.php:84 lib/views/customers/dashboard.php:89
+msgid "Set New Password"
+msgstr "Yeni Parola Ayarla"
+
+#: lib/views/customers/dashboard.php:86 lib/views/customers/password_reset_form.php:9 lib/views/customers/password_reset_form.php:19
+msgid "New Password"
+msgstr "Yeni Şifre"
+
+#: lib/views/customers/dashboard.php:87 lib/views/customers/password_reset_form.php:10 lib/views/customers/password_reset_form.php:20
+msgid "Confirm New Password"
+msgstr "Yeni şifreyi onayla"
+
+#: lib/views/customers/index.php:9 lib/views/customers/index.php:45
+msgid "Full Name"
+msgstr "Ad Soyad"
+
+#: lib/views/customers/index.php:12 lib/views/customers/index.php:48
+msgid "Total Apps"
+msgstr "Toplam Uygulamalar"
+
+#: lib/views/customers/index.php:13 lib/views/customers/index.php:49
+msgid "Next App"
+msgstr "Sonraki uygulama"
+
+#: lib/views/customers/index.php:14 lib/views/customers/index.php:50
+msgid "Time to Next"
+msgstr "Sıradaki Saat"
+
+#: lib/views/customers/index.php:20
+msgid "Search by Name"
+msgstr "İsme Göre Ara"
+
+#: lib/views/customers/index.php:21
+msgid "Phone..."
+msgstr "Telefon..."
+
+#: lib/views/customers/index.php:22
+msgid "Search by Email"
+msgstr "E-posta ile ara"
+
+#: lib/views/customers/index.php:28 lib/views/customers/index.php:29
+msgid "Filter By Date"
+msgstr "Tarihe Göre Filtrele"
+
+#: lib/views/customers/index.php:28
+msgid "Reset Date Filtering"
+msgstr "Tarih Filtrelemeyi Sıfırla"
+
+#: lib/views/customers/index.php:59
+msgid "Showing customers"
+msgstr "Danışanleri gösteren"
+
+#: lib/views/customers/index.php:75
+msgid "No Existing Customers Found"
+msgstr "Mevcut Danışan Bulunamadı"
+
+#: lib/views/customers/login.php:3
+msgid "Login to your account"
+msgstr "Hesabınıza giriş yapın"
+
+#: lib/views/customers/login.php:8
+msgid "Log me in"
+msgstr "Giriş yap"
+
+#: lib/views/customers/login.php:9 lib/views/steps/_contact.php:27
+msgid "Forgot Password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: lib/views/customers/login.php:12 lib/views/steps/_contact.php:34
+msgid "OR"
+msgstr "VEYA"
+
+#: lib/views/customers/login.php:15 lib/views/steps/_contact.php:37
+msgid "Login with Facebook"
+msgstr "Facebook ile giriş"
+
+#: lib/views/customers/login.php:18 lib/views/steps/_contact.php:40
+msgid "Login with Google"
+msgstr "Google ile giriş yap"
+
+#: lib/views/customers/password_reset_form.php:5
+msgid "Change Your Password"
+msgstr "Şifreni değiştir"
+
+#: lib/views/customers/password_reset_form.php:6
+msgid "Enter a secret key you received via email to change your account password."
+msgstr "Hesap şifrenizi değiştirmek için e-posta yoluyla aldığınız bir gizli anahtar girin."
+
+#: lib/views/customers/password_reset_form.php:8 lib/views/customers/password_reset_form.php:18
+msgid "Enter Your Secret Key"
+msgstr "Gizli Anahtarınızı Girin"
+
+#: lib/views/customers/password_reset_form.php:13 lib/views/customers/password_reset_form.php:22
+msgid "Save Password"
+msgstr "Şifreyi kaydet"
+
+#: lib/views/customers/password_reset_form.php:14 lib/views/customers/password_reset_form.php:23
+msgid "Don't have a secret key?"
+msgstr "Gizli bir anahtarın yok mu?"
+
+#: lib/views/customers/request_password_reset_token.php:5
+msgid "Reset Password Request"
+msgstr "Parola İsteğini Sıfırla"
+
+#: lib/views/customers/request_password_reset_token.php:7
+msgid "We'll email you a secret key. Once you receive it, you can use it to change your password."
+msgstr "Size bir gizli anahtar göndereceğiz. Bir kez aldığınızda, şifrenizi değiştirmek için kullanabilirsiniz."
+
+#: lib/views/customers/request_password_reset_token.php:12 lib/views/customers/request_password_reset_token.php:19
+msgid "Submit Request"
+msgstr "İstek gönderin"
+
+#: lib/views/customers/request_password_reset_token.php:13 lib/views/customers/request_password_reset_token.php:20
+msgid "Already have a key?"
+msgstr "Zaten bir anahtarınız var mı?"
+
+#: lib/views/dashboard/_booking_info_box_small.php:49 lib/views/dashboard/widget_upcoming_appointments.php:51
+msgid "Slots Booked"
+msgstr "Rezerve Edilen Alanlar"
+
+#: lib/views/dashboard/widget_agent_availability_timeline_for_period.php:3 lib/views/dashboard/widget_agents_availability_timeline.php:3
+msgid "Availability"
+msgstr "Kullanılabilirlik"
+
+#: lib/views/dashboard/widget_agents_bookings_timeline.php:3
+msgid "Appointments Timeline"
+msgstr "Randevular Saat Çizelgesi"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:3
+msgid "Performance"
+msgstr "\"Tasarım, Özellikler, Performans\" gibi çeşitli yönlerden ürün oranı"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:40 lib/views/dashboard/widget_daily_bookings_chart.php:49 lib/views/dashboard/widget_daily_bookings_chart.php:58
+msgid "Previously:"
+msgstr "Önceden:"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:52
+msgid "Sales Revenue"
+msgstr "Satış geliri"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:61
+msgid "Hours Worked"
+msgstr "Çalışılan saatler"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:78
+msgid "No Appointments Found"
+msgstr "Randevu Bulunamadı"
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:89
+msgid "Breakdown by Service"
+msgstr "Hizmete Göre Parçalama"
+
+#: lib/views/dashboard/widget_performance_charts.php:3
+msgid "Performance Reports"
+msgstr "Performans Raporları"
+
+#: lib/views/dashboard/widget_stats.php:3
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: lib/views/dashboard/widget_top_agents.php:3
+msgid "Top Agents"
+msgstr "En İyi Diyetisyenlar"
+
+#: lib/views/dashboard/widget_top_agents.php:33 lib/views/reminders/new_form.php:28
+msgid "Hours"
+msgstr "Saatler"
+
+#: lib/views/dashboard/widget_top_agents.php:58
+msgid "No Appointments in Period"
+msgstr "Dönem İçinde Randevu Yok"
+
+#: lib/views/dashboard/widget_upcoming_appointments.php:3 lib/views/dashboard/widget_upcoming_appointments.php:27
+msgid "Upcoming"
+msgstr "Yaklaşan"
+
+#: lib/views/dashboard/widget_upcoming_appointments.php:81
+msgid "Create Another One"
+msgstr "Başka Bir tane Yarat"
+
+#: lib/views/dashboard/widget_upcoming_appointments.php:86
+msgid "No Upcoming Appointments"
+msgstr "Yaklaşan Randevu Yok"
+
+#: lib/views/debug/status.php:5
+msgid "LatePoint Plugin Version:"
+msgstr "LatePoint Eklentisi Sürümü:"
+
+#: lib/views/debug/status.php:9
+msgid "PHP Version:"
+msgstr "PHP Sürümü:"
+
+#: lib/views/debug/status.php:14
+msgid "MySQL Version:"
+msgstr "MySQL Sürümü:"
+
+#: lib/views/debug/status.php:19
+msgid "WordPress Version:"
+msgstr "WordPress Sürümü:"
+
+#: lib/views/layouts/admin.php:6
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: lib/views/locations/_form.php:7 lib/views/services/_form.php:7
+msgid "Basic Information"
+msgstr "Temel bilgi"
+
+#: lib/views/locations/_form.php:9
+msgid "Location ID:"
+msgstr "Yer Kimliği:"
+
+#: lib/views/locations/_form.php:18
+msgid "Location Photo"
+msgstr "Konum Fotoğrafı"
+
+#: lib/views/locations/_form.php:18 lib/views/service_categories/_form.php:13 lib/views/services/_form.php:42 lib/views/services/_form.php:49 lib/views/settings/steps.php:37 lib/views/wizard/steps/_form_service.php:12
+msgid "Remove Image"
+msgstr "Resmi Kaldır"
+
+#: lib/views/locations/_form.php:21
+msgid "Location Address"
+msgstr "Konum adresi"
+
+#: lib/views/locations/_form.php:34
+msgid "Select Agents for This Location"
+msgstr "Bu Konum için Diyetisyenlar Seçin"
+
+#: lib/views/locations/_form.php:67
+#, php-format
+msgid "Select services %s will be offering at this location:"
+msgstr "Bu konumda teklif edeceğiniz %s hizmetini seçin:"
+
+#: lib/views/locations/_form.php:92
+msgid "Location Schedule"
+msgstr "Konum Çizelgesi"
+
+#: lib/views/locations/_form.php:104
+msgid "This location is using general schedule which is set in main settings"
+msgstr "Bu konum ana ayarlarda ayarlanan genel programı kullanıyor"
+
+#: lib/views/locations/_form.php:116
+msgid "Location shares custom daily schedules that you set in general settings for your company, however you can add additional days with custom hours which will be specific to this location only."
+msgstr "Konum, şirketiniz için genel ayarlarda belirlediğiniz özel günlük programları paylaşır, ancak yalnızca bu konuma özgü olacak özel saatlerle ek günler ekleyebilirsiniz."
+
+#: lib/views/locations/_form.php:125
+msgid "Location uses the same holidays you set in general settings for your company, however you can add additional holidays for this location here."
+msgstr "Konum, şirketiniz için genel ayarlarda ayarladığınız tatilleri kullanır, ancak bu konum için buraya başka tatiller ekleyebilirsiniz."
+
+#: lib/views/locations/_form.php:133
+msgid "Save Location"
+msgstr "Konumu kaydet"
+
+#: lib/views/locations/_form.php:138
+msgid "Are you sure you want to remove this location? It will remove all appointments associated with it. If you only want to temprorary disable it - it is better to just change status to disabled."
+msgstr "Bu konumu kaldırmak istediğinize emin misiniz? Bununla ilişkili tüm randevuları kaldıracak. Yalnızca geçici olarak devre dışı bırakmak istiyorsanız - durumu devre dışı olarak değiştirmek daha iyidir."
+
+#: lib/views/locations/_form.php:142
+msgid "Delete Location"
+msgstr "Konumu Sil"
+
+#: lib/views/locations/index.php:5
+msgid "Install Locations Add-on"
+msgstr "Konum Eklentisini Yükle"
+
+#: lib/views/notifications/_available_vars.php:3
+msgid "You can use these variables in your email and sms notifications. Just click on the variable with {} brackets and it will automatically copy to your buffer and you can simply paste it where you want to use it. It will be converted into a value for the agent/service or appointment."
+msgstr "Bu değişkenleri e-posta ve sms bildirimlerinizde kullanabilirsiniz. {} Parantezli değişkene tıkladığınızda otomatik olarak tampon belleğinize kopyalarsınız ve onu kullanmak istediğiniz yere kolayca yapıştırabilirsiniz. Temsilci / hizmet veya randevu için bir değere dönüştürülecektir."
+
+#: lib/views/notifications/_available_vars.php:7
+msgid "Appointment"
+msgstr "Randevu"
+
+#: lib/views/notifications/_available_vars.php:9 lib/views/settings/steps.php:86
+msgid "Appointment ID#:"
+msgstr "Randevu No No:"
+
+#: lib/views/notifications/_available_vars.php:10
+msgid "Service Name:"
+msgstr "Hizmet adı:"
+
+#: lib/views/notifications/_available_vars.php:11
+msgid "Start Date:"
+msgstr "Başlangıç tarihi:"
+
+#: lib/views/notifications/_available_vars.php:12
+msgid "Start Time:"
+msgstr "Başlama saatı:"
+
+#: lib/views/notifications/_available_vars.php:13
+msgid "End Time:"
+msgstr "Bitiş saatı:"
+
+#: lib/views/notifications/_available_vars.php:14
+msgid "Service Duration:"
+msgstr "Hizmet Süresi:"
+
+#: lib/views/notifications/_available_vars.php:16
+msgid "Previous Status:"
+msgstr "Önceki Durum:"
+
+#: lib/views/notifications/_available_vars.php:21
+msgid "Payment"
+msgstr "Ödeme"
+
+#: lib/views/notifications/_available_vars.php:23
+msgid "Payment Portion:"
+msgstr "Ödeme kısmı:"
+
+#: lib/views/notifications/_available_vars.php:25
+msgid "Payment Amount:"
+msgstr "Ödeme miktarı:"
+
+#: lib/views/notifications/_available_vars.php:26 lib/views/steps/_verify.php:52
+msgid "Total Price:"
+msgstr "Toplam fiyat:"
+
+#: lib/views/notifications/_available_vars.php:32 lib/views/notifications/_available_vars.php:44
+msgid "Full Name:"
+msgstr "Ad Soyad:"
+
+#: lib/views/notifications/_available_vars.php:33
+msgid "First Name:"
+msgstr "İsim:"
+
+#: lib/views/notifications/_available_vars.php:34
+msgid "Last Name:"
+msgstr "Soyadı:"
+
+#: lib/views/notifications/_available_vars.php:35
+msgid "Email Address:"
+msgstr "E-Posta Adresi:"
+
+#: lib/views/notifications/_available_vars.php:37
+msgid "Comments:"
+msgstr "Ek bilgi notular:"
+
+#: lib/views/notifications/_available_vars.php:38
+msgid "Password Reset Token:"
+msgstr "Parola Sıfırlama Simgesi:"
+
+#: lib/views/notifications/_available_vars.php:50 lib/views/steps/start.php:54
+msgid "Location"
+msgstr "Konum"
+
+#: lib/views/notifications/_available_vars.php:53
+msgid "Full Address:"
+msgstr "Açık adres:"
+
+#: lib/views/notifications/email_templates.php:6
+msgid "Agent Email Notifications"
+msgstr "Diyetisyen E-posta Bildirimleri"
+
+#: lib/views/notifications/email_templates.php:9
+msgid "Enable Appointment Confirmation Email to Agent"
+msgstr "Diyetisyensa Randevu Onay E-postasını Etkinleştir"
+
+#: lib/views/notifications/email_templates.php:11 lib/views/notifications/email_templates.php:16 lib/views/notifications/email_templates.php:29 lib/views/notifications/email_templates.php:34 lib/views/notifications/email_templates.php:46
+msgid "Email Subject"
+msgstr "E-posta konu"
+
+#: lib/views/notifications/email_templates.php:12 lib/views/notifications/email_templates.php:17 lib/views/notifications/email_templates.php:30 lib/views/notifications/email_templates.php:35 lib/views/notifications/email_templates.php:47
+msgid "Email Message"
+msgstr "E-posta mesajı"
+
+#: lib/views/notifications/email_templates.php:14
+msgid "Enable Agent Notification of Appointment Status Change"
+msgstr "Randevu Durumu Değişikliği Diyetisyen Bildirimini Etkinleştir"
+
+#: lib/views/notifications/email_templates.php:24
+msgid "Customer Email Notifications"
+msgstr "Danışan E-posta Bildirimleri"
+
+#: lib/views/notifications/email_templates.php:27
+msgid "Enable Appointment Confirmation Email to Customer"
+msgstr "Danışanye Randevu Onay E-postasını Etkinleştir"
+
+#: lib/views/notifications/email_templates.php:32
+msgid "Enable Customer Notification of Appointment Status Change"
+msgstr "Randevu Durumu Değişikliği Danışan Bildirimini Etkinleştir"
+
+#: lib/views/notifications/email_templates.php:42
+msgid "Other Customer Emails"
+msgstr "Diğer Danışan E-postaları"
+
+#: lib/views/notifications/email_templates.php:45
+msgid "Customer Password Reset Request"
+msgstr "Danışan Şifresi Sıfırlama İsteği"
+
+#: lib/views/notifications/email_templates.php:50 lib/views/notifications/settings.php:29 lib/views/notifications/sms_templates.php:26 lib/views/settings/calendar_settings.php:23 lib/views/settings/general.php:149 lib/views/settings/payments.php:31 lib/views/settings/steps.php:95
+msgid "Save Settings"
+msgstr "Ayarları kaydet"
+
+#: lib/views/notifications/settings.php:5
+msgid "Email Settings"
+msgstr "Email Ayarları"
+
+#: lib/views/notifications/settings.php:8
+msgid "Enable Email Notifications"
+msgstr "E-posta Bildirimlerini Etkinleştir"
+
+#: lib/views/notifications/settings.php:17
+msgid "Enable SMS Notifications"
+msgstr "SMS Bildirimlerini Etkinleştir"
+
+#: lib/views/notifications/settings.php:24
+msgid "Install SMS Processing Add-on"
+msgstr "SMS İşleme Eklentisini Yükle"
+
+#: lib/views/notifications/sms_templates.php:6
+msgid "Messages to Agent"
+msgstr "Temsilciye Mesajlar"
+
+#: lib/views/notifications/sms_templates.php:9
+msgid "Enable Appointment Confirmation SMS to Agent"
+msgstr "Diyetisyen’a Randevu Onay SMS’ini etkinleştirin"
+
+#: lib/views/notifications/sms_templates.php:11 lib/views/notifications/sms_templates.php:22
+msgid "Message Content"
+msgstr "Mesaj içeriği"
+
+#: lib/views/notifications/sms_templates.php:17
+msgid "Messages to Customer"
+msgstr "Danışanye Mesajlar"
+
+#: lib/views/notifications/sms_templates.php:20
+msgid "Enable Appointment Confirmation SMS to Customer"
+msgstr "Danışanye Randevu Onay SMS'lerini Etkinleştirme"
+
+#: lib/views/partials/_side_menu.php:13
+msgid "To WordPress"
+msgstr "WordPress'e"
+
+#: lib/views/partials/_side_menu.php:61 lib/views/partials/_side_menu.php:62
+msgid "Back to WordPress"
+msgstr "WordPress'e dön"
+
+#: lib/views/partials/_top_bar.php:8
+msgid "Start typing to find customers, agents or services..."
+msgstr "Danışanleri, acenteleri veya hizmeti bulmak için yazmaya başlayın ..."
+
+#: lib/views/reminders/index.php:10
+msgid "Add Reminder"
+msgstr "Hatırlatıcı Ekle"
+
+#: lib/views/reminders/new_form.php:7
+msgid "Reminder"
+msgstr "Hatırlatma"
+
+#: lib/views/reminders/new_form.php:13
+msgid "Reminder Name"
+msgstr "Hatırlatma adı"
+
+#: lib/views/reminders/new_form.php:17
+msgid "SMS Message"
+msgstr "SMS Mesajı"
+
+#: lib/views/reminders/new_form.php:20
+msgid "To Customer"
+msgstr "Danışanye"
+
+#: lib/views/reminders/new_form.php:21
+msgid "To Agent"
+msgstr "Diyetisyen için"
+
+#: lib/views/reminders/new_form.php:24
+msgid "When?"
+msgstr "Ne saat?"
+
+#: lib/views/reminders/new_form.php:27
+msgid "Days"
+msgstr "Gün"
+
+#: lib/views/reminders/new_form.php:31
+msgid "Before"
+msgstr "Önce"
+
+#: lib/views/reminders/new_form.php:32
+msgid "After"
+msgstr "Sonra"
+
+#: lib/views/reminders/new_form.php:37
+msgid "Email Subject of Reminder"
+msgstr "E-posta Hatırlatma Konusu"
+
+#: lib/views/reminders/new_form.php:42
+msgid "Message"
+msgstr "Mesaj"
+
+#: lib/views/reminders/new_form.php:49
+msgid "Are you sure you want to remove this reminder?"
+msgstr "Bu hatırlatıcıyı kaldırmak istediğinize emin misiniz?"
+
+#: lib/views/search/query_results.php:13
+msgid "No Matched Customers found."
+msgstr "Eşleşen Danışan bulunamadı."
+
+#: lib/views/search/query_results.php:29
+msgid "No Matched Agents found."
+msgstr "Eşleşen Diyetisyen bulunamadı."
+
+#: lib/views/search/query_results.php:42
+msgid "No Matched Services found."
+msgstr "Eşleşen Hizmet bulunamadı."
+
+#: lib/views/service_categories/_form.php:6 lib/views/service_categories/new_form.php:8
+msgid "Category Name"
+msgstr "Kategori adı"
+
+#: lib/views/service_categories/_form.php:9 lib/views/services/_form.php:21 lib/views/settings/steps.php:28
+msgid "Short Description"
+msgstr "Kısa Açıklama"
+
+#: lib/views/service_categories/_form.php:13
+msgid "Category Image"
+msgstr "Kategori Resmi"
+
+#: lib/views/service_categories/_form.php:19
+msgid "Save Category"
+msgstr "Kategoriyi Kaydet"
+
+#: lib/views/service_categories/_form.php:25
+msgid "Are you sure you want to remove this category?"
+msgstr "Bu kategoriyi kaldırmak istediğinize emin misiniz?"
+
+#: lib/views/service_categories/_form.php:28
+msgid "Delete Category"
+msgstr "Kategoriyi Sil"
+
+#: lib/views/service_categories/index.php:14
+msgid "Create New Category"
+msgstr "Yeni Kategori Yarat"
+
+#: lib/views/service_categories/index.php:18
+msgid "Create New Service Category"
+msgstr "Yeni Hizmet Kategorisi Yaratın"
+
+#: lib/views/service_categories/new_form.php:3
+msgid "Add Service Category"
+msgstr "Hizmet Kategorisi Ekle"
+
+#: lib/views/service_categories/new_form.php:9
+msgid "Quick Description"
+msgstr "Hızlı Açıklama"
+
+#: lib/views/service_categories/new_form.php:15
+msgid "Save Service Category"
+msgstr "Hizmet Kategorisini Kaydet"
+
+#: lib/views/services/_form.php:9
+msgid "Service ID:"
+msgstr "Hizmet Kimliği:"
+
+#: lib/views/services/_form.php:17
+msgid "Category"
+msgstr "Kategori"
+
+#: lib/views/services/_form.php:17
+msgid "Add Category"
+msgstr "Kategori ekle"
+
+#: lib/views/services/_form.php:23
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: lib/views/services/_form.php:23
+msgid "Visible to everyone"
+msgstr "Herkese görünür"
+
+#: lib/views/services/_form.php:23
+msgid "Visible only to admins and agents"
+msgstr "Yalnızca yöneticilere ve aracılara görünür"
+
+#: lib/views/services/_form.php:32
+msgid "Media"
+msgstr "Medya"
+
+#: lib/views/services/_form.php:39
+msgid "Selection Image"
+msgstr "Seçim Resmi"
+
+#: lib/views/services/_form.php:40 lib/views/services/_form.php:47
+msgid "This image will be used as a background image of the header and category tile for the single page with full description of the service"
+msgstr "Bu resim, hizmetin tam açıklamasıyla tek sayfa için üstbilgi ve kategori döşemesinin arka plan görüntüsü olarak kullanılacaktır"
+
+#: lib/views/services/_form.php:42 lib/views/services/_form.php:49 lib/views/settings/steps.php:37
+msgid "Step Image"
+msgstr "Adım görüntü"
+
+#: lib/views/services/_form.php:46
+msgid "Service Page Image"
+msgstr "Hizmet Sayfası Resmi"
+
+#: lib/views/services/_form.php:56
+msgid "Service Durations"
+msgstr "Hizmet Süreleri"
+
+#: lib/views/services/_form.php:62
+msgid "Service Duration (minutes)"
+msgstr "Hizmet Süresi (dakika)"
+
+#: lib/views/services/_form.php:77
+msgid "Other Price and Duration Settings"
+msgstr "Diğer Fiyat ve Süre Ayarları"
+
+#: lib/views/services/_form.php:88
+msgid "Buffer Before (minutes)"
+msgstr "Önce Tampon (dakika)"
+
+#: lib/views/services/_form.php:91
+msgid "Buffer After (minutes)"
+msgstr "Tampon Sonrası (dakika)"
+
+#: lib/views/services/_form.php:94
+msgid "Override Time Intervals (minutes)"
+msgstr "Saat Aralıklarını Geçersiz Kılma (dakika)"
+
+#: lib/views/services/_form.php:131
+msgid "Locations Selected"
+msgstr "Seçilen Yerler"
+
+#: lib/views/services/_form.php:137
+#, php-format
+msgid "Select services %s will be offering at this service:"
+msgstr "Bu hizmette %s sunacağı hizmeti seçin:"
+
+#: lib/views/services/_form.php:162
+msgid "Service Schedule"
+msgstr "Hizmet programı"
+
+#: lib/views/services/_form.php:174
+msgid "This service is using general schedule which is set in main settings"
+msgstr "Bu hizmet, ana ayarlarda ayarlanan genel saatlamayı kullanıyor"
+
+#: lib/views/services/_form.php:187
+msgid "Service shares custom daily schedules that you set in general settings for your company, however you can add additional days with custom hours which will be specific to this service only."
+msgstr "Hizmet, şirketiniz için genel ayarlarda belirlediğiniz özel günlük programları paylaşır, ancak yalnızca bu hizmete özgü olacak özel saatlerle ek günler ekleyebilirsiniz."
+
+#: lib/views/services/_form.php:196
+msgid "Service uses the same holidays you set in general settings for your company, however you can add additional holidays for this service here."
+msgstr "Hizmet, şirketiniz için genel olarak ayarladığınız tatilleri kullanır, ancak bu hizmet için buraya başka tatiller ekleyebilirsiniz."
+
+#: lib/views/services/_form.php:210
+msgid "Are you sure you want to remove this service? It will remove all appointments associated with it. You can also change status to disabled if you want to temprorary disable it instead."
+msgstr "Bu hizmeti kaldırmak istediğinden emin misin? Bununla ilişkili tüm randevuları kaldıracak. Bunun yerine geçici olarak devre dışı bırakmak istiyorsanız, durumu devre dışı olarak da değiştirebilirsiniz."
+
+#: lib/views/services/_form.php:214
+msgid "Delete Service"
+msgstr "Hizmeti Sil"
+
+#: lib/views/services/_service_index_item.php:8
+msgid "Agents:"
+msgstr "Diyetisyenlar:"
+
+#: lib/views/services/_service_index_item.php:14 lib/views/wizard/steps/_list_services.php:17
+msgid "more"
+msgstr "daha fazla"
+
+#: lib/views/services/_service_index_item.php:19
+msgid "Duration:"
+msgstr "Süre:"
+
+#: lib/views/services/_service_index_item.php:20 lib/views/services/_service_index_item.php:28
+msgid "min"
+msgstr "min"
+
+#: lib/views/services/_service_index_item.php:23
+msgid "Price:"
+msgstr "Fiyat:"
+
+#: lib/views/services/_service_index_item.php:27
+msgid "Buffer:"
+msgstr "Tampon:"
+
+#: lib/views/settings/calendar_settings.php:5
+msgid "Calendar Settings"
+msgstr "Takvim Ayarları"
+
+#: lib/views/settings/calendar_settings.php:8
+msgid "Enable Google Calendar Integration"
+msgstr "Google Takvim Entegrasyonunu Etkinleştir"
+
+#: lib/views/settings/calendar_settings.php:12
+msgid "Google Calendar Client ID"
+msgstr "Google Takvim Danışan Kimliği"
+
+#: lib/views/settings/calendar_settings.php:17
+msgid "Google Calendar Client Secret"
+msgstr "Google Takvim Danışan Sırrı"
+
+#: lib/views/settings/custom_day_schedule_form.php:6
+msgid "Pick a Date"
+msgstr "Bir tarih seçin"
+
+#: lib/views/settings/custom_day_schedule_form.php:16
+msgid "Set Schedule"
+msgstr "Saatlamayı Ayarla"
+
+#: lib/views/settings/custom_day_schedule_form.php:63
+msgid "Add another work period"
+msgstr "Başka bir çalışma süresi ekle"
+
+#: lib/views/settings/custom_day_schedule_form.php:71
+msgid "Set as Day Off"
+msgstr "Gün Kapalı olarak ayarla"
+
+#: lib/views/settings/custom_day_schedule_form.php:71
+msgid "Save Schedule"
+msgstr "Saatlamayı Kaydet"
+
+#: lib/views/settings/database_setup.php:2
+msgid "Database Updated"
+msgstr "Veritabanını Güncelle"
+
+#: lib/views/settings/general.php:5
+msgid "Appointment Settings"
+msgstr "Randevu Ayarları"
+
+#: lib/views/settings/general.php:10
+msgid "Default Appointment Status"
+msgstr "Varsayılan Randevu Durumu"
+
+#: lib/views/settings/general.php:10
+msgid "Set Default Status"
+msgstr "Varsayılan Durumu Ayarla"
+
+#: lib/views/settings/general.php:13
+msgid "Time System"
+msgstr "Saat sistemi"
+
+#: lib/views/settings/general.php:16
+msgid "Date Format"
+msgstr "Tarih formatı"
+
+#: lib/views/settings/general.php:21
+msgid "Selectable Time Intervals in Minutes"
+msgstr "Dakikada Seçilebilir Saat Aralıkları"
+
+#: lib/views/settings/general.php:24
+msgid "Show Appointment End Time"
+msgstr "Randevu Bitiş Saatını Göster"
+
+#: lib/views/settings/general.php:31
+msgid "Restrictions"
+msgstr "Kısıtlamalar"
+
+#: lib/views/settings/general.php:34
+msgid "You can set restrictions on earliest/latest dates in the future when your customer can place an appointment. You can either use a relative values like for example \"+1 month\", \"+5 days\", \"+2 weeks\", or you can use a fixed date in format YYYY-MM-DD. Leave blank to remove any limitations."
+msgstr "Danışannizin randevu alabileceği en erken/en son tarihleriçin kısıtlamalar belirleyebilirsiniz. Örneğin \"+1 ay\", \"+5 gün\", \"+2 hafta\" gibi göreli değerleri kullanabilir veya yyyy-MM-DD biçiminde sabit bir tarih kullanabilirsiniz."
+
+#: lib/views/settings/general.php:37
+msgid "Earliest Possible Booking"
+msgstr "En Erken Olası Randevu"
+
+#: lib/views/settings/general.php:40
+msgid "Latest Possible Booking"
+msgstr "Olası Son Randevu"
+
+#: lib/views/settings/general.php:45
+msgid "Maximum Number of Future Bookings per Customer"
+msgstr "Danışan Başına Maksimum Gelecek Randevuu Sayısı"
+
+#: lib/views/settings/general.php:52
+msgid "Currency Settings"
+msgstr "Para Birimi Ayarları"
+
+#: lib/views/settings/general.php:57
+msgid "Currency symbol in front of price"
+msgstr "Fiyat önünde para birimi simgesi"
+
+#: lib/views/settings/general.php:60
+msgid "Currency symbol after the price"
+msgstr "Fiyat sonra para birimi simgesi"
+
+#: lib/views/settings/general.php:67
+msgid "Phone Settings"
+msgstr "Telefon ayarları"
+
+#: lib/views/settings/general.php:72
+msgid "Phone Input Mask"
+msgstr "Telefon Girişi Maskesi"
+
+#: lib/views/settings/general.php:75
+msgid "Disable Phone Formatting"
+msgstr "Telefon Biçimlendirmeyi Devre Dışı Bırak"
+
+#: lib/views/settings/general.php:80
+msgid "Phone code for your country"
+msgstr "Ülkeniz için telefon kodu"
+
+#: lib/views/settings/general.php:87
+msgid "Appearance Settings"
+msgstr "Görünüm ayarları"
+
+#: lib/views/settings/general.php:92
+msgid "Color Scheme for Booking Form"
+msgstr "Randevu Formu için Renk Şeması"
+
+#: lib/views/settings/general.php:95
+msgid "Style"
+msgstr "Stil:"
+
+#: lib/views/settings/general.php:102
+msgid "Social Login"
+msgstr "Sosyal Giriş"
+
+#: lib/views/settings/general.php:105
+msgid "Enable Login with Google"
+msgstr "Google ile giriş yapmayı etkinleştir"
+
+#: lib/views/settings/general.php:107
+msgid "Google Settings"
+msgstr "Google Ayarları"
+
+#: lib/views/settings/general.php:108
+msgid "Google Client ID"
+msgstr "Google Danışan Kimliği"
+
+#: lib/views/settings/general.php:109
+msgid "Google Client Secret"
+msgstr "Google Danışan Sırrı"
+
+#: lib/views/settings/general.php:111
+msgid "Enable Login with Facebook"
+msgstr "Facebook ile Giriş yapmayı etkinleştir"
+
+#: lib/views/settings/general.php:113
+msgid "Facebook Settings"
+msgstr "Facebook Ayarları"
+
+#: lib/views/settings/general.php:114
+msgid "Facebook App ID"
+msgstr "Facebook Uygulama Kimliği"
+
+#: lib/views/settings/general.php:115
+msgid "Facebook App Secret"
+msgstr "Facebook Uygulaması Sırrı"
+
+#: lib/views/settings/general.php:121
+msgid "Setup Pages"
+msgstr "Kurulum Sayfaları"
+
+#: lib/views/settings/general.php:126
+msgid "Customer Dashboard Page URL"
+msgstr "Danışan Gösterge Tablosu Sayfa URL'si"
+
+#: lib/views/settings/general.php:129
+msgid "Customer Login Page URL"
+msgstr "Danışan Giriş Sayfası URL'si"
+
+#: lib/views/settings/general.php:136
+msgid "Other Settings"
+msgstr "Diğer ayarlar"
+
+#: lib/views/settings/general.php:141
+msgid "Daily Calendar Minimum Height (in pixels)"
+msgstr "Günlük Takvim Minimum Yüksekliği (piksel cinsinden)"
+
+#: lib/views/settings/general.php:144
+msgid "Shortcode for a book button on customer dashboard"
+msgstr "Danışan gösterge tablosunda kitap düğmesi için kısa kod"
+
+#: lib/views/settings/pages.php:2
+msgid "Customer Login"
+msgstr "Danışan Girişi"
+
+#: lib/views/settings/pages.php:4 lib/views/settings/pages.php:15
+msgid "Select Page"
+msgstr "Sayfa Seç"
+
+#: lib/views/settings/pages.php:13
+msgid "Customer Profile"
+msgstr "Danışan profili"
+
+#: lib/views/settings/payments.php:5
+msgid "Payment Settings"
+msgstr "Ödeme ayarları"
+
+#: lib/views/settings/payments.php:9
+msgid "Enable Accepting Payments"
+msgstr "Ödemeleri Kabul Etmeyi Etkinleştir"
+
+#: lib/views/settings/payments.php:11
+msgid "Environment"
+msgstr "Ortam"
+
+#: lib/views/settings/payments.php:11
+msgid "Live (Production)"
+msgstr "Canlı (Yapım)"
+
+#: lib/views/settings/payments.php:11
+msgid "Sandbox (Development)"
+msgstr "Sandbox (Geliştirme)"
+
+#: lib/views/settings/payments.php:11
+msgid "Demo"
+msgstr "Demo"
+
+#: lib/views/settings/payments.php:14
+msgid "Accept Credit Cards"
+msgstr "Kredi kartlarını kabul et"
+
+#: lib/views/settings/payments.php:21
+msgid "Allow Paying Locally"
+msgstr "Yerel Olarak Ödeme Yapmaya İzin Ver"
+
+#: lib/views/settings/payments.php:26
+msgid "Install Payment Gateway Add-on"
+msgstr "Ödeme Ağ Geçidi Eklentisini Yükleyin"
+
+#: lib/views/settings/steps.php:1
+msgid "Step Editing"
+msgstr "Adım Düzenleme"
+
+#: lib/views/settings/steps.php:10
+msgid "Since you only have one location, this step will be skipped"
+msgstr "Yalnızca bir konumunuz olduğundan, bu adım atlanacak"
+
+#: lib/views/settings/steps.php:13
+msgid "Payment processing is disabled. Click to setup."
+msgstr "Ödeme işlemi devre dışı bırakıldı. Kurmak için tıklayın."
+
+#: lib/views/settings/steps.php:22
+msgid "Step Title"
+msgstr "Adım Başlığı"
+
+#: lib/views/settings/steps.php:25
+msgid "Step Sub Title"
+msgstr "Adım Alt Başlık"
+
+#: lib/views/settings/steps.php:31
+msgid "Use Custom Step Image"
+msgstr "Özel Adım Görüntüsünü Kullan"
+
+#: lib/views/settings/steps.php:44
+msgid "Save Step"
+msgstr "Adım kaydet"
+
+#: lib/views/settings/steps.php:56
+msgid "Other Step Settings"
+msgstr "Diğer Adım Ayarları"
+
+#: lib/views/settings/steps.php:57
+msgid "Show Service Categories"
+msgstr "Hizmet Kategorilerini Göster"
+
+#: lib/views/settings/steps.php:58
+msgid "Show Agent Bio Popup"
+msgstr "Diyetisyen Bio Popup göster"
+
+#: lib/views/settings/steps.php:59
+msgid "Hide \"Create Account\" Prompt on Confirmation Step"
+msgstr "Onay Adımında \"Hesap Oluştur\" İstemini Gizle"
+
+#: lib/views/settings/steps.php:60
+msgid "Remove Login/Register Tabs on Contact Info Step"
+msgstr "Giriş Bilgilerini Sil / İletişim Bilgisindeki Sekmeleri Kaldır Adım"
+
+#: lib/views/settings/steps.php:61
+msgid "Do not show Agent Name on Summary and Confirmation steps"
+msgstr "Diyetisyen Adı'nı Özet ve Onay adımlarında gösterme"
+
+#: lib/views/settings/steps.php:62
+msgid "Do not go to next step until a next step button is pressed"
+msgstr "Bir sonraki adım düğmesine basıldığında bir sonraki adıma gitmeyin"
+
+#: lib/views/settings/steps.php:63
+msgid "Skip Verification Step"
+msgstr "Doğrulama Adımını Atla"
+
+#: lib/views/settings/steps.php:64
+msgid "Always show agent selection step, even if only one agent is available"
+msgstr "Sadece bir ajan mevcut olsa bile daima ajan seçim adımını göster"
+
+#: lib/views/settings/steps.php:65
+msgid "Add \"Any Agent\" option to agent selection"
+msgstr "Diyetisyen seçimine \"Herhangi Bir Diyetisyen\" seçeneği ekleme"
+
+#: lib/views/settings/steps.php:67
+msgid "Any Agent Settings"
+msgstr "Herhangi bir Diyetisyen Ayarları"
+
+#: lib/views/settings/steps.php:68
+msgid "If \"Any Agent\" Selected Assign to"
+msgstr "\"Herhangi Bir Diyetisyen\" Seçilirse Atayın"
+
+#: lib/views/settings/steps.php:69
+msgid "Random"
+msgstr "Rastgele"
+
+#: lib/views/settings/steps.php:70
+msgid "Most expensive agent"
+msgstr "En pahalı ajan"
+
+#: lib/views/settings/steps.php:71
+msgid "Least expensive agent"
+msgstr "En az pahalı ajan"
+
+#: lib/views/settings/steps.php:72
+msgid "Agent with most bookings on that day"
+msgstr "O gün en çok randevu yapılan aracı"
+
+#: lib/views/settings/steps.php:73
+msgid "Agent with least bookings on that day"
+msgstr "O gün en az randevu yapılan aracı"
+
+#: lib/views/settings/steps.php:76
+msgid "Content for a bottom part of a booking side panel"
+msgstr "Randevu yan panelinin alt kısmı için içerik"
+
+#: lib/views/settings/steps.php:78
+msgid "Tracking Code"
+msgstr "İzleme kodu"
+
+#: lib/views/settings/steps.php:81
+msgid "You can track conversions from ads or other landing pages by placing a tracking code your ad manager generates on a confirmation page. You can use these variables in your tracking code. Click on the variable to copy."
+msgstr "Reklam yöneticinizin bir onay sayfasına oluşturduğu bir izleme kodunu yerleştirerek reklamlardan veya diğer açılış sayfalarından gelen dönüşümleri izleyebilirsiniz. Bu değişkenleri izleme kodunuzda kullanabilirsiniz. Kopyalanacak değişkeni tıklayın."
+
+#: lib/views/settings/steps.php:87
+msgid "Service ID#:"
+msgstr "Hizmet Kimliği #:"
+
+#: lib/views/settings/steps.php:88
+msgid "Agent ID#:"
+msgstr "Diyetisyen Kimliği #:"
+
+#: lib/views/settings/steps.php:89
+msgid "Customer ID#:"
+msgstr "Danışan Kimliği#:"
+
+#: lib/views/settings/steps.php:94
+msgid "Enter Tracking code here"
+msgstr "İzleme kodunu buraya girin"
+
+#: lib/views/settings/work_periods.php:5
+msgid "General Weekly Schedule"
+msgstr "Genel Haftalık Ders Programı"
+
+#: lib/views/settings/work_periods.php:11
+msgid "Save Weekly Schedule"
+msgstr "Haftalık Takvimi Kaydet"
+
+#: lib/views/settings/work_periods.php:34
+msgid "Select Date"
+msgstr "Tarih seç"
+
+#: lib/views/shared/access_not_allowed.php:1
+msgid "You are not allowed to access this page"
+msgstr "Bu sayfaya erişemezsin"
+
+#: lib/views/steps/_agents.php:7 lib/views/steps/_agents.php:13
+msgid "Any Agent"
+msgstr "Herhangi bir ajan"
+
+#: lib/views/steps/_agents.php:31
+msgid "View Details"
+msgstr "Detayları göster"
+
+#: lib/views/steps/_agents.php:40
+msgid "Close Details"
+msgstr "Ayrıntıları Kapat"
+
+#: lib/views/steps/_confirmation.php:7
+msgid "Print"
+msgstr "Yazdır"
+
+#: lib/views/steps/_confirmation.php:76
+msgid "Set Your Password"
+msgstr "Şifrenizi ayarlayın"
+
+#: lib/views/steps/_confirmation.php:82
+msgid "You can now manage your appointments in your personal cabinet"
+msgstr "Oluşturulan Hesap. Artık randevularınızı yönetebilirsiniz."
+
+#: lib/views/steps/_confirmation.php:84
+msgid "Open My Cabinet"
+msgstr "Kabinesimi Aç"
+
+#: lib/views/steps/_confirmation.php:88
+msgid "Did you know that you can create an account to manage your reservations and schedule new appointments?"
+msgstr "Randevularınızı yönetmek ve yeni randevularınızı planlamak için bir hesap oluşturabileceğinizi biliyor muydunuz?"
+
+#: lib/views/steps/_confirmation.php:90
+msgid "Create Account"
+msgstr "Hesap açmak"
+
+#: lib/views/steps/_contact.php:4
+msgid "Your Contact Information"
+msgstr "İletişim Bilgileriniz"
+
+#: lib/views/steps/_contact.php:5
+msgid "Not You?"
+msgstr "Sen değil?"
+
+#: lib/views/steps/_contact.php:12
+msgid "New Registration"
+msgstr "Yeni kayıt"
+
+#: lib/views/steps/_contact.php:13
+msgid "Already have an account?"
+msgstr "Zaten hesabınız var mı?"
+
+#: lib/views/steps/_contact.php:23
+msgid "Your Password"
+msgstr "Şifreniz"
+
+#: lib/views/steps/_contact.php:26
+msgid "Log Me In"
+msgstr "Giriş Yap"
+
+#: lib/views/steps/_contact_form.php:6
+msgid "Add Comments"
+msgstr "Ek bilgi notu ekle"
+
+#: lib/views/steps/_datepicker.php:6
+msgid "Pick Appointment Time For"
+msgstr "Randevu Saatını Seçin"
+
+#: lib/views/steps/_limit_reached.php:3
+msgid "Limit Reached!"
+msgstr "Sınıra ulaşıldı!"
+
+#: lib/views/steps/_limit_reached.php:4
+msgid "You have reached the limit for reservations allowed per customer. Please contact us if you wish to modify your existing appointment."
+msgstr "Danışan başına izin verilen randevu limitine ulaştınız. Mevcut randevunuzu değiştirmek istiyorsanız lütfen bizimle iletişime geçin."
+
+#: lib/views/steps/_payment.php:8
+msgid "Demo Mode, click Next Step to proceed"
+msgstr "Demo Modu, devam etmek için Sonraki Adıma tıklayın"
+
+#: lib/views/steps/_payment.php:12
+msgid "Card Details"
+msgstr "Kart detayları"
+
+#: lib/views/steps/_payment.php:15
+msgid "Name on card"
+msgstr "Karttaki isim"
+
+#: lib/views/steps/_payment.php:16
+msgid "ZIP"
+msgstr "Posta"
+
+#: lib/views/steps/_payment.php:23 lib/views/steps/_payment.php:26
+msgid "Card Number"
+msgstr "Kart numarası"
+
+#: lib/views/steps/_payment.php:27
+msgid "Enter Card Number"
+msgstr "Kart Numarasını Girin"
+
+#: lib/views/steps/_payment.php:37 lib/views/steps/_payment.php:40 lib/views/steps/_payment.php:41
+msgid "Exp.Date"
+msgstr "Son kullanma tarihi"
+
+#: lib/views/steps/_payment.php:47 lib/views/steps/_payment.php:50 lib/views/steps/_payment.php:51
+msgid "CVC"
+msgstr "CVC"
+
+#: lib/views/steps/_payment.php:58
+msgid "All transactions are secure and encrypted. Credit card information is never stored."
+msgstr "Tüm işlemler güvenli ve şifreli. Kredi kartı bilgileri asla saklanmaz."
+
+#: lib/views/steps/_payment.php:64
+msgid "Click the button below to pay using PayPal"
+msgstr "PayPal kullanarak ödeme yapmak için aşağıdaki düğmeye tıklayın"
+
+#: lib/views/steps/_payment.php:65
+msgid "You will be able to verify your booking information and confirm it before submitting the payment on the next step."
+msgstr "Bir sonraki adımda ödemeyi yapmadan önce randevu bilgilerinizi doğrulayabilir ve onaylayabilirsiniz."
+
+#: lib/views/steps/_payment.php:68
+msgid "Demo Mode, click here to continue"
+msgstr "Demo Modu, devam etmek için buraya tıklayın"
+
+#: lib/views/steps/_payment.php:79
+msgid "When would you like to pay for the service?"
+msgstr "Hizmet için ne saat ödeme yapmak istersiniz?"
+
+#: lib/views/steps/_payment.php:80
+msgid "You can either pay now or pay locally on arriaval. You will be able to select payment method in the next step."
+msgstr "Ya şimdi ya da yerel olarak arriaval ile ödeme yapabilirsiniz. Bir sonraki adımda ödeme yöntemini seçebileceksiniz."
+
+#: lib/views/steps/_payment.php:93
+msgid "How would you like to make a payment?"
+msgstr "Nasıl ödeme yapmak istersiniz?"
+
+#: lib/views/steps/_payment.php:94 lib/views/steps/_payment.php:108
+msgid "You can either make a full payment now or just leave a deposit and pay the rest after."
+msgstr "Ya şimdi tam bir ödeme yapabilir ya da sadece bir depozito bırakıp kalanını ödeyebilirsiniz."
+
+#: lib/views/steps/_payment.php:107
+msgid "How much do you want to pay now?"
+msgstr "Şimdi ne kadar ödemek istiyorsun?"
+
+#: lib/views/steps/_payment.php:121
+msgid "Deposit Only"
+msgstr "Sadece Depozito"
+
+#: lib/views/steps/_services.php:3
+msgid "Select Service Duration"
+msgstr "Hizmet Süresini Seçin"
+
+#: lib/views/steps/_services.php:4
+msgid "You need to select service duration, the price of your service will depend on duration."
+msgstr "Hizmet süresini seçmeniz gerekir, servisinizin fiyatı süreye bağlı olacaktır."
+
+#: lib/views/steps/_services.php:8
+msgid "How Many People?"
+msgstr "Kaç insan?"
+
+#: lib/views/steps/_services.php:9
+msgid "Maximum capacity is"
+msgstr "Maksimum kapasite"
+
+#: lib/views/steps/_services.php:13
+msgid "Qty"
+msgstr "Adet"
+
+#: lib/views/steps/_verify.php:3
+msgid "Double check your booking information, you can go back to edit it or click submit button to confirm your booking."
+msgstr "Randevu bilgilerinizi iki kez kontrol edin, düzenlemeye geri dönebilir veya randevuunuzu onaylamak için gönder düğmesine tıklayabilirsiniz."
+
+#: lib/views/steps/_verify.php:48
+msgid "Balance Due:"
+msgstr "Geciken Bakiye:"
+
+#: lib/views/steps/_verify.php:51
+msgid "Deposit Now:"
+msgstr "Şimdi yatır:"
+
+#: lib/views/steps/_verify.php:54
+msgid "Charge Amount:"
+msgstr "Ücret Tutarı:"
+
+#: lib/views/steps/start.php:27
+msgid "Selected"
+msgstr "Seçili"
+
+#: lib/views/steps/start.php:41 lib/views/wizard/setup.php:10
+msgid "Back"
+msgstr "Geri"
+
+#: lib/views/steps/start.php:43
+msgid "Submit"
+msgstr "Gönder"
+
+#: lib/views/steps/start.php:43 lib/views/wizard/setup.php:11
+msgid "Next Step"
+msgstr "Sonraki adım"
+
+#: lib/views/steps/start.php:49
+msgid "Summary"
+msgstr "Özet"
+
+#: lib/views/steps/start.php:59
+msgid "Total Price"
+msgstr "Toplam fiyat"
+
+#: lib/views/transactions/index.php:8 lib/views/transactions/index.php:46
+msgid "Token"
+msgstr "Jeton"
+
+#: lib/views/transactions/index.php:9 lib/views/transactions/index.php:47
+msgid "Booking ID"
+msgstr "Randevu No"
+
+#: lib/views/transactions/index.php:60
+#, php-format
+msgid "Showing transactions %d to %d of %d total"
+msgstr "İşlemleri gösteriliyor %d üzere %d arasında %d toplam"
+
+#: lib/views/updates/_license_form.php:2
+msgid "License Key Registration"
+msgstr "Lisans Anahtarı Kaydı"
+
+#: lib/views/updates/_license_form.php:11
+msgid "Please enter your LatePoint license key to receive free plugin updates and install addons."
+msgstr "Ücretsiz eklenti güncellemeleri almak ve ekleri yüklemek için lütfen LatePoint lisans anahtarınızı girin."
+
+#: lib/views/updates/_license_form.php:15
+msgid "Your Name"
+msgstr "Adınız"
+
+#: lib/views/updates/_license_form.php:23
+msgid "License Key"
+msgstr "Lisans anahtarı"
+
+#: lib/views/updates/_license_form.php:26
+msgid "Activate Licence Key"
+msgstr "Lisans Anahtarını Etkinleştir"
+
+#: lib/views/updates/check_version_status.php:6
+msgid "New Update is Available"
+msgstr "Yeni Güncelleme Mevcut"
+
+#: lib/views/updates/check_version_status.php:8
+msgid "New Version Number: "
+msgstr "Yeni Sürüm Numarası: "
+
+#: lib/views/updates/check_version_status.php:11 lib/views/updates/check_version_status.php:24
+msgid "Installed Version Number: "
+msgstr "Kurulu Sürüm Numarası: "
+
+#: lib/views/updates/check_version_status.php:22
+msgid "You are using the latest version"
+msgstr "En son sürümü kullanıyorsunuz"
+
+#: lib/views/updates/check_version_status.php:28
+msgid "Learn More About LatePoint Plugin"
+msgstr "LatePoint Eklentisi Hakkında Daha Fazla Bilgi Edinin"
+
+#: lib/views/updates/status.php:4
+msgid "Checking Version Status"
+msgstr "Sürüm Durumunu Kontrol Etme"
+
+#: lib/views/updates/status.php:12
+msgid "Loading Update Log"
+msgstr "Güncelleme Günlüğü yükleniyor"
+
+#: lib/views/wizard/steps/_agents.php:1 lib/views/wizard/steps/_services.php:1 lib/views/wizard/steps/_settings.php:1 lib/views/wizard/steps/_work_periods.php:1
+#, php-format
+msgid "Step %d of %d"
+msgstr "%d / %d adımı"
+
+#: lib/views/wizard/steps/_agents.php:2
+msgid "Create Your Agents"
+msgstr "Acentelerinizi Yaratın"
+
+#: lib/views/wizard/steps/_agents.php:3
+msgid "You can also create more and edit existing agents in your LatePoint admin panel, you will be able to set custom schedules, add agent bio and other parameters there."
+msgstr "Ayrıca, LatePoint yönetici panelinizde daha fazlasını oluşturabilir ve mevcut aracıları düzenleyebilirsiniz; burada özel programlar ayarlayabilir, aracı ajanı bio ve diğer parametreleri ekleyebilirsiniz."
+
+#: lib/views/wizard/steps/_complete.php:2
+msgid "That was easy, right? You can now add [latepoint_book_button] shortcode on your pages and your customers will be able to book appointments. You can also modify agents, services and locations in your admin panel."
+msgstr "Bu kolaydı, değil mi? Artık sayfalarınıza [latepoint_book_button] kısa kodu ekleyebilir ve danışanleriniz randevuları alabileceklerdir. Yönetici panelinizde aracıları, hizmeti ve konumları da değiştirebilirsiniz."
+
+#: lib/views/wizard/steps/_complete.php:4
+msgid "Go To Dashboard"
+msgstr "Gösterge Tablosuna Git"
+
+#: lib/views/wizard/steps/_form_agent.php:19
+msgid "Upload Agent's Photo"
+msgstr "Aracının Fotoğrafını Yükle"
+
+#: lib/views/wizard/steps/_form_agent.php:19
+msgid "Remove Agent's Photo"
+msgstr "Diyetisyenın Fotoğrafını Kaldır"
+
+#: lib/views/wizard/steps/_form_agent.php:32
+msgid "Save Agent"
+msgstr "Aracı Kaydet"
+
+#: lib/views/wizard/steps/_form_service.php:8
+msgid "Duration (minutes)"
+msgstr "Süre (dakika)"
+
+#: lib/views/wizard/steps/_form_service.php:12
+msgid "Upload Image for Service"
+msgstr "Hizmet için Resim Yükle"
+
+#: lib/views/wizard/steps/_form_service.php:16
+msgid "Pick Agents for Service"
+msgstr "Hizmet Diyetisyenlarını Seçin"
+
+#: lib/views/wizard/steps/_form_service.php:41
+msgid "Save Service"
+msgstr "Hizmeti Kaydet"
+
+#: lib/views/wizard/steps/_intro.php:2
+msgid "LatePoint Setup Wizard"
+msgstr "LatePoint Kurulum Sihirbazı"
+
+#: lib/views/wizard/steps/_intro.php:3
+msgid "Thank you for installing LatePoint for WordPress, we will walk you through a quick setup process to add services, agents and set working hours for your business."
+msgstr "LatePort for WordPress'i yüklediğiniz için teşekkür ederiz. Hizmet, acenteler eklemek ve işletmeniz için çalışma saatlerini ayarlamak için hızlı bir kurulum sürecinde size yardımcı olacağız."
+
+#: lib/views/wizard/steps/_intro.php:4
+msgid "Get Started"
+msgstr "Başlamak"
+
+#: lib/views/wizard/steps/_list_services.php:23
+msgid "Are you sure you want to remove this service?"
+msgstr "Bu hizmeti kaldırmak istediğinden emin misin?"
+
+#: lib/views/wizard/steps/_services.php:2
+msgid "Add Services You Offer"
+msgstr "Teklif ettiğiniz Hizmeti Ekleyin"
+
+#: lib/views/wizard/steps/_services.php:3
+msgid "When adding a service, make sure to select agents who will be offering it. You can set custom schedules and prices for each service in LatePoint admin panel later."
+msgstr "Bir servis eklerken, sunacak acenteleri seçtiğinizden emin olun. Daha sonra LatePoint yönetici panelinde her hizmet için özel programlar ve fiyatlar belirleyebilirsiniz."
+
+#: lib/views/wizard/steps/_settings.php:2
+msgid "Add services you offer"
+msgstr "Sunduğunuz hizmeti ekleyin"
+
+#: lib/views/wizard/steps/_settings.php:3
+msgid "Day and, through to this separated is rhetoric regretting the magnitude, perception is keep in"
+msgstr "Gün ve bu ayrılığa kadar söylemlerin büyüklüğü için pişmanlık duyuyor, algı devam ediyor"
+
+#: lib/views/wizard/steps/_settings.php:7
+msgid "Plugin Purchase Code"
+msgstr "Eklenti Satın Alma Kodu"
+
+#: lib/views/wizard/steps/_work_periods.php:2
+msgid "Set Your Work Hours"
+msgstr "Mesai Saatlerinizi Ayarlayın"
+
+#: lib/views/wizard/steps/_work_periods.php:3
+msgid "These will be your default work hours, they will be default work hours for all your locations, agents and services. You can set custom hours for each agent, service or location in LatePoint admin panel."
+msgstr "Bunlar varsayılan çalışma saatleriniz olacak, tüm konumlarınız, acenteleriniz ve hizmetiniz için varsayılan çalışma saatleri olacak. LatePoint yönetici panelinde her bir ajan, servis veya konum için özel saatler ayarlayabilirsiniz."
+
+#. Description of the plugin/theme
+msgid "Appointment Scheduling Software for WordPress"
+msgstr "WordPress için Randevu Planlama Yazılımı"
+
+#. Author URI of the plugin/theme
+msgid "http://latepoint.com"
+msgstr "http://latepoint.com"
